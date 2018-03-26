@@ -3,7 +3,7 @@ module.exports = {
     title: '室蘭フェリーターミナル',
     author: '室蘭港フェリー航路応援隊',
     description: 'ある市民による室蘭フェリーターミナルの情報サイト',
-    siteUrl: 'https://muroran-ferry.net/',
+    siteUrl: 'https://muroran-ferry.net',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
