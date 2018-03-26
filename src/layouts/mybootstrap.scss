@@ -63,6 +63,17 @@ $link-hover-decoration: none !default;
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
+// accordion
+.accordion .card-header h2:before {
+  content: '\f0da';
+  font-family: 'FontAwesome';
+  padding-right: 8px;
+}
+.accordion .card-header.is-expanded h2:before {
+  content: '\f0d7';
+}
+
+// Google Adsense
 .ads {
   margin-top: 5pt;
   margin-bottom: 5pt;
