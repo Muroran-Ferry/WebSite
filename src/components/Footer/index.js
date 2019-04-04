@@ -6,7 +6,7 @@ class Footer extends React.Component {
     const { author } = this.props
     return (
       <footer>
-        <p className="text-center">(c) 2018 {author}.</p>
+        <p className="text-center">(c) 2018-2019 {author}.</p>
       </footer>
     )
   }

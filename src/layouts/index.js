@@ -9,6 +9,7 @@ import AdSense from 'react-adsense'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './mybootstrap.scss'
+import bootstrap from 'bootstrap'
 
 class TemplateWrapper extends React.Component {
   render() {
