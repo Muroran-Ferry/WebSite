@@ -33,25 +33,79 @@ class Header extends React.Component {
               アクセス
             </Link>
           </li>
-          <li
-            className={
-              location.pathname === '/timetable/'
-                ? 'nav-item active'
-                : 'nav-item'
-            }
-          >
-            <Link className="nav-link" to="/timetable/">
+          <li className="nav-item">
+            <a
+              className="nav-link"
+              href="https://www.silverferry.jp/schedule/"
+              target="_blank"
+            >
               時刻表
-            </Link>
+            </a>
           </li>
-          <li
-            className={
-              location.pathname === '/fare/' ? 'nav-item active' : 'nav-item'
-            }
-          >
-            <Link className="nav-link" to="/fare/">
+          <li className="nav-item dropdown">
+            <a
+              className="nav-link dropdown-toggle"
+              href="https://www.silverferry.jp/fare/"
+              rel="nofollow noopener noreferrer"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               運賃
-            </Link>
+            </a>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a
+                className="dropdown-item"
+                href="https://www.silverferry.jp/fare/#passenger"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                旅客運賃
+              </a>
+              <a
+                className="dropdown-item"
+                href="https://www.silverferry.jp/fare/#automobile"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                乗用車運賃
+              </a>
+              <a
+                className="dropdown-item"
+                href="https://www.silverferry.jp/fare/#bike"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                特殊手荷物運賃（オートバイ・自転車等）
+              </a>
+              <a
+                className="dropdown-item"
+                href="https://www.silverferry.jp/fare/#baggage"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                手小荷物運賃
+              </a>
+              <a
+                className="dropdown-item"
+                href="https://www.silverferry.jp/FareFreight/"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                貨物自動車運賃（トラック・バス等）
+              </a>
+              <div className="dropdown-divider" />
+              <a
+                className="dropdown-item"
+                href="https://www.silverferry.jp/fare/#discount"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+              >
+                各種割引
+              </a>
+            </div>
           </li>
           <li
             className={
