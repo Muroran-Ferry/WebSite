@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import Icon from 'react-fa'
 
@@ -13,7 +12,8 @@ import {
 const ReservationPage = () => (
   <main id="Reservation" className="col-12" role="main">
     <h1>
-      <Icon name="calendar" />予約方法
+      <Icon name="calendar" />
+      予約方法
     </h1>
     <AccordionWithHeader firstOpen multipleOkay className="accordion">
       <AccordionNode className="card" key="0">
@@ -24,7 +24,7 @@ const ReservationPage = () => (
         >
           <h2 style={{ margin: '0px' }}>
             宮蘭航路
-            <div className="lead">2018年6月22日就航予定！</div>
+            <div className="lead">2018年6月22日就航！</div>
           </h2>
         </AccordionHeader>
         <AccordionPanel>

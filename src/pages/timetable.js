@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import Icon from 'react-fa'
 
@@ -13,7 +12,8 @@ import {
 const TimetablePage = () => (
   <main id="Timetable" className="col-12" role="main">
     <h1>
-      <Icon name="clock" />時刻表
+      <Icon name="clock" />
+      時刻表
     </h1>
     <AccordionWithHeader firstOpen multipleOkay className="accordion">
       <AccordionNode className="card" key="0">
@@ -22,10 +22,7 @@ const TimetablePage = () => (
           horizontalAlignment="left"
           verticalAlignment="bottom"
         >
-          <h2 style={{ margin: '0px' }}>
-            宮蘭航路
-            <div className="lead">2018年6月22日就航予定！</div>
-          </h2>
+          <h2 style={{ margin: '0px' }}>宮蘭航路</h2>
         </AccordionHeader>
         <AccordionPanel>
           <div className="card-body">
@@ -40,14 +37,17 @@ const TimetablePage = () => (
             <div className="row">
               <div className="col-12 col-md-6">
                 <h3>
-                  <Icon name="ship" />室蘭→宮古
+                  <Icon name="ship" />
+                  室蘭→八戸→宮古
                 </h3>
                 <div className="table-responsive">
                   <table className="table">
                     <thead className="thead-dark">
                       <tr className="">
                         <th scope="col">船舶</th>
-                        <th scope="col">室蘭発</th>
+                        <th scope="col">室蘭発 (日曜運休)</th>
+                        <th scope="col">八戸着</th>
+                        <th scope="col">八戸発 (月曜運休)</th>
                         <th scope="col">宮古着</th>
                       </tr>
                     </thead>
@@ -56,13 +56,16 @@ const TimetablePage = () => (
                         <td>
                           <a
                             href="http://www.silverferry.jp/ship_guide/#silverQueen"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             シルバークィーン
                           </a>
                         </td>
-                        <td>20:00</td>
-                        <td>翌 06:00</td>
+                        <td>20:50</td>
+                        <td>翌 03:30</td>
+                        <td>04:00</td>
+                        <td>翌 07:55</td>
                       </tr>
                     </tbody>
                   </table>
@@ -70,14 +73,15 @@ const TimetablePage = () => (
               </div>
               <div className="col-12 col-md-6">
                 <h3>
-                  <Icon name="ship" />宮古→室蘭
+                  <Icon name="ship" />
+                  宮古→室蘭
                 </h3>
                 <div className="table-responsive">
                   <table className="table">
                     <thead className="thead-dark">
                       <tr className="">
                         <th scope="col">船舶</th>
-                        <th scope="col">宮古発</th>
+                        <th scope="col">宮古発 (月曜運休)</th>
                         <th scope="col">室蘭着</th>
                       </tr>
                     </thead>
@@ -86,6 +90,7 @@ const TimetablePage = () => (
                         <td>
                           <a
                             href="http://www.silverferry.jp/ship_guide/#silverQueen"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             シルバークィーン
