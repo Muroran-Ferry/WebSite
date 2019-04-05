@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^1.9.279",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-catch-links": "^1.0.26",
@@ -20,9 +21,9 @@
     "react-accordion-with-header": "0.0.9",
     "react-adsense": "0.0.5",
     "react-bootstrap": "^1.0.0-beta.6",
-    "bootstrap": "^4.3.1",
     "react-fa": "^5.0.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-structured-data": "0.0.7"
   },
   "keywords": [
     "gatsby"
@@ -73,7 +74,6 @@
     "lint-staged": "^7.3.0",
     "normalize.css": "^8.0.1",
     "prettier": "^1.16.4",
-    "react-structured-data": "0.0.7",
     "textlint": "^10.2.1",
     "textlint-rule-preset-ja-spacing": "^2.0.1",
     "textlint-rule-preset-japanese": "^4.0.2"
