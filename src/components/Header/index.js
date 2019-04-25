@@ -38,6 +38,7 @@ class Header extends React.Component {
               className="nav-link"
               href="https://www.silverferry.jp/schedule/"
               target="_blank"
+              rel="nofollow noopener noreferrer"
             >
               時刻表
             </a>
@@ -46,6 +47,7 @@ class Header extends React.Component {
             <a
               className="nav-link dropdown-toggle"
               href="https://www.silverferry.jp/fare/"
+              target="_blank"
               rel="nofollow noopener noreferrer"
               id="navbarDropdown"
               role="button"
