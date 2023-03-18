@@ -1,26 +1,42 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Nuxt 3 Minimal Starter
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Install
+## Setup
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
+Make sure to install the dependencies:
+
+```bash
+# yarn
+yarn install
+
+# npm
+npm install
+
+# pnpm
+pnpm install
 ```
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
+## Development Server
+
+Start the development server on http://localhost:3000
+
+```bash
+npm run dev
 ```
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
+## Production
+
+Build the application for production:
+
+```bash
+npm run build
 ```
 
-## Deploy
+Locally preview production build:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+```bash
+npm run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

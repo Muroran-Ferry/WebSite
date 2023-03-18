@@ -1,0 +1,37 @@
+<template>
+  <ReversePageSection id="contact">
+    <template v-slot:header>お問い合わせ</template>
+
+    <div class="grid gap-4 bg-white px-8 py-6">
+      <section>
+        <h4>フェリーに関するお問い合わせ（運行・運賃/料金・予約等）</h4>
+        <div class="py-4">各運行会社にお問い合わせください。</div>
+      </section>
+
+      <section>
+        <h4>施設・店舗・アクセス・乗船案内等に関するお問い合せ</h4>
+        <div class="py-4">
+          フェリーターミナル管理者、フェリーターミナル所有者にお問い合わせください。
+        </div>
+      </section>
+
+      <section>
+        <h4>観光に関するお問い合わせ</h4>
+        <div class="py-4">各観光協会にお問い合わせください。</div>
+      </section>
+
+      <section>
+        <h4>ウェブサイトに関するお問い合わせ</h4>
+        <div class="py-4">
+          <a
+            href="https://github.com/Muroran-Ferry/WebSite"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub: Muroran-Ferry/WebSite
+          </a>
+        </div>
+      </section>
+    </div>
+  </ReversePageSection>
+</template>
