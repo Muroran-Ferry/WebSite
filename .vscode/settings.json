@@ -1,0 +1,31 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.renderControlCharacters": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.localityBonus": true,
+  "extensions.ignoreRecommendations": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "mergeEditor.diffAlgorithm": "experimental",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.watcherExclude": {
+    ".git": true,
+    "node_modules": true
+  },
+}

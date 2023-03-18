@@ -1,0 +1,15 @@
+@config "../../tailwind.config.ts";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.prose :where(h2, h3, h4):not(:where([class~='not-prose'] *)) {
+  scroll-margin-top: var(--scroll-mt);
+}
