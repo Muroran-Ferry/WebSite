@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      GTAG_ID: undefined,
-      ADSENSE_CLIENT_ID: undefined,
+      GTAG_ID: process.env.NUXT_PUBLIC_GTAG_ID,
+      ADSENSE_CLIENT_ID: process.env.NUXT_PUBLIC_ADSENSE_CLIENT_ID,
     },
   },
   modules: ['nuxt-jsonld'],
