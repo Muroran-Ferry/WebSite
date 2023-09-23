@@ -6,6 +6,10 @@
       class="text-sm font-semibold text-sky-600 underline decoration-sky-600 hover:text-sky-800 hover:decoration-sky-800"
     >
       {{ announcement.title }}
+      <ArrowTopRightOnSquareIcon
+        v-if="isExternalLink"
+        class="-mt-1 ml-1 inline-block h-4 w-4"
+      />
     </nuxt-link>
   </div>
   <div v-else class="text-sm font-semibold text-gray-900">
@@ -14,6 +18,8 @@
 </template>
 
 <script lang="ts" setup>
+import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
+
 import type { Announcement } from '~/schemas/announcement_schema';
 
 interface Props {
@@ -23,13 +29,18 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {});
 
 const anchorBind = computed(() => {
-  return props.announcement.linkTo &&
-    props.announcement.linkTo.startsWith('http')
+  return isExternalLink.value
     ? {
         target: '_blank',
         rel: 'noopener noreferrer',
       }
     : {};
+});
+
+const isExternalLink = computed(() => {
+  return (
+    props.announcement.linkTo && props.announcement.linkTo.startsWith('http')
+  );
 });
 </script>
 
