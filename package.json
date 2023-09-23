@@ -12,6 +12,7 @@
     "@headlessui/vue": "1.7.16",
     "@heroicons/vue": "2.0.18",
     "@nuxt/devtools": "0.8.4",
+    "@nuxtjs/web-vitals": "0.2.6",
     "@tailwindcss/typography": "0.5.10",
     "@types/node": "20.6.3",
     "@volar-plugins/vetur": "2.0.0",

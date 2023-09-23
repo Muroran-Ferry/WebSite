@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/devtools',
+    '@nuxtjs/web-vitals',
     'nuxt-jsonld',
   ],
   css: ['~/assets/css/main.css'],
@@ -40,5 +41,11 @@ export default defineNuxtConfig({
           : undefined,
       ],
     },
+  },
+
+  webVitals: {
+    // provider: '', // auto detectd
+    debug: false,
+    disabled: false
   },
 });
