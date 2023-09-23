@@ -1,12 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
+
   runtimeConfig: {
     public: {
       GTAG_ID: process.env.NUXT_PUBLIC_GTAG_ID,
       ADSENSE_CLIENT_ID: process.env.NUXT_PUBLIC_ADSENSE_CLIENT_ID,
     },
   },
-  modules: ['nuxt-jsonld'],
+  modules: [
+    '@nuxt/devtools',
+    'nuxt-jsonld',
+  ],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
