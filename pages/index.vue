@@ -26,6 +26,7 @@
       </PageSection>
     </div>
 
+    <Campaigns class="not-prose" />
     <Schedule
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
