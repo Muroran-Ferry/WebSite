@@ -6,13 +6,13 @@ export default defineNuxtConfig({
     public: {
       GTAG_ID: process.env.NUXT_PUBLIC_GTAG_ID,
       ADSENSE_CLIENT_ID: process.env.NUXT_PUBLIC_ADSENSE_CLIENT_ID,
+      ANNOUNCEMENT_API_URL: process.env.NUXT_PUBLIC_ANNOUNCEMENT_API_URL,
+      HOLIDAY_API_URL: process.env.NUXT_PUBLIC_HOLIDAY_API_URL,
+      SEIRAN_PRICE_SCHEDULE_API_URL:
+        process.env.NUXT_PUBLIC_SEIRAN_PRICE_SCHEDULE_API_URL,
     },
   },
-  modules: [
-    '@nuxt/devtools',
-    '@nuxtjs/web-vitals',
-    'nuxt-jsonld',
-  ],
+  modules: ['@nuxt/devtools', '@nuxtjs/web-vitals', 'nuxt-jsonld'],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
@@ -46,6 +46,6 @@ export default defineNuxtConfig({
   webVitals: {
     // provider: '', // auto detectd
     debug: false,
-    disabled: false
+    disabled: false,
   },
 });

@@ -15,14 +15,15 @@
     "@nuxtjs/web-vitals": "0.2.6",
     "@tailwindcss/typography": "0.5.10",
     "@types/node": "20.6.3",
-    "@volar-plugins/vetur": "2.0.0",
     "autoprefixer": "10.4.16",
+    "cdate": "0.0.7",
     "nuxt": "3.7.3",
     "nuxt-jsonld": "2.0.8",
     "postcss": "8.4.30",
     "prettier": "3.0.3",
     "prettier-plugin-tailwindcss": "0.5.4",
     "tailwindcss": "3.3.3",
+    "volar-service-vetur": "0.0.13",
     "vue-gtag-next": "1.14.0",
     "zod": "3.22.2"
   }
