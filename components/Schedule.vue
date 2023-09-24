@@ -65,7 +65,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                   所要時間
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
-                  約7時間
+                  7時間
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -115,7 +115,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                   所要時間
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
-                  約6時間45分
+                  6時間45分
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -143,8 +143,10 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
           <div class="text-sm text-gray-700">
             ※最新の運航情報は津軽海峡フェリーへお問い合わせください。
             <dl class="not-prose ml-4 mt-2 space-y-2">
-              <div class="flex">
-                <dt class="mr-1 font-semibold text-gray-700">ホームページ:</dt>
+              <div class="flex items-center">
+                <dt class="mr-1 text-sm font-semibold text-gray-700">
+                  ホームページ:
+                </dt>
                 <dd>
                   <a
                     class="text-blue-600 underline decoration-blue-600 hover:text-blue-900 hover:decoration-blue-900"
@@ -159,8 +161,10 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                   </a>
                 </dd>
               </div>
-              <div class="flex">
-                <dt class="mr-1 font-semibold text-gray-700">電話番号:</dt>
+              <div class="flex items-center">
+                <dt class="mr-1 text-sm font-semibold text-gray-700">
+                  電話番号:
+                </dt>
                 <dd>
                   <a
                     class="text-blue-600 underline decoration-blue-600 hover:text-blue-900 hover:decoration-blue-900"

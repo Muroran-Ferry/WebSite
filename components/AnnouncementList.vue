@@ -16,6 +16,9 @@ import { announcementSchema } from '~/schemas/announcement_schema';
 
 import type { Announcement } from '~/schemas/announcement_schema';
 
+const config = useRuntimeConfig();
+
+//refs
 const announcements = ref({
   loading: false,
   data: [] as Announcement[],
@@ -23,9 +26,7 @@ const announcements = ref({
 
 try {
   announcements.value.loading = true;
-  const { data } = await useLazyFetch(
-    'https://api.sssapi.app/Gk4QDu_ehuuZB89c6Sx68'
-  );
+  const { data } = await useLazyFetch(config.public.ANNOUNCEMENT_API_URL);
   announcements.value.data = announcementSchema.array().parse(data.value);
 } catch (error) {
   console.error(error);

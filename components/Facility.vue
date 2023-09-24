@@ -6,7 +6,7 @@
       2023年9月25日より施設開業予定です。
     </div>
 
-    <div class="grid gap-4">
+    <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <section>
         <h4
           class="bg-sky-500 px-4 py-2 text-base font-semibold leading-6 text-white"
