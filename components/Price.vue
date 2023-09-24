@@ -230,18 +230,10 @@
                 </header>
 
                 <table class="mb-0 mt-4 w-full text-sm">
-                  <thead>
-                    <tr>
-                      <th class="px-2 py-1 text-left"></th>
-                      <th class="bg-orange-300 px-2 py-1 text-center">A期間</th>
-                      <th class="bg-sky-300 px-2 py-1 text-center">B期間</th>
-                      <th class="bg-lime-300 px-2 py-1 text-center">C期間</th>
-                    </tr>
-                  </thead>
                   <tbody>
                     <tr>
-                      <th rowspan="4" class="px-2 py-1">船室貸切</th>
-                      <td colspan="4" class="px-2 py-1">
+                      <th class="px-2 py-1">船室貸切</th>
+                      <td class="px-2 py-1">
                         船室非利用客数×1旅客当たりの運賃×0.5
                       </td>
                     </tr>
