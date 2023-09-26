@@ -14,7 +14,7 @@
     "@nuxt/devtools": "0.8.4",
     "@nuxtjs/web-vitals": "0.2.6",
     "@tailwindcss/typography": "0.5.10",
-    "@types/node": "20.6.5",
+    "@types/node": "20.7.0",
     "autoprefixer": "10.4.16",
     "cdate": "0.0.7",
     "nuxt": "3.7.3",
