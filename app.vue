@@ -9,11 +9,22 @@
 </template>
 
 <script setup lang="ts">
+import ScrollHint from 'scroll-hint';
+
 const appConfig = useAppConfig();
 
 useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk ? `${titleChunk} - ${appConfig.title}` : appConfig.title;
   },
+});
+
+onMounted(() => {
+  new ScrollHint('[data-scroll-hint]', {
+    suggestiveShadow: true,
+    i18n: {
+      scrollable: 'スクロールできます',
+    },
+  });
 });
 </script>

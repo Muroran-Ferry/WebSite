@@ -2,7 +2,7 @@
   <PageSection id="price">
     <template v-slot:header>運賃・料金</template>
 
-    <div class="grid gap-4">
+    <div class="grid grid-cols-1 gap-4">
       <section>
         <h4
           class="bg-rose-500 px-4 py-2 text-base font-semibold leading-6 text-white"
@@ -20,6 +20,8 @@
             v-if="!priceSchedules.loading && priceSchedules.data.length > 0"
             :price-schedules="priceSchedules.data"
           />
+
+          <SeiranNewYear2024Calendar class="mt-8" />
 
           <PriceClassCalendar
             class="mt-8"

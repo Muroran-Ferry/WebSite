@@ -1,5 +1,10 @@
 <template>
-  <li>{{ startDateText }}〜{{ endDateText }}</li>
+  <li
+    v-if="priceSchedule.startDate.getTime() === priceSchedule.endDate.getTime()"
+  >
+    {{ startDateText }}
+  </li>
+  <li v-else>{{ startDateText }}〜{{ endDateText }}</li>
 </template>
 
 <script lang="ts" setup>

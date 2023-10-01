@@ -1,7 +1,3 @@
-<script lang="ts" setup>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
-</script>
-
 <template>
   <PageSection id="schedule">
     <template v-slot:header>航路・時刻</template>
@@ -74,6 +70,9 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   日曜日
+                  <div class="text-xs">
+                    ※2023年12月29日（金）～2024年1月3日（水）は運休
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,6 +123,9 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   月曜日
+                  <div class="text-xs">
+                    ※2023年12月30日（土）～2024年1月4日（木）は運休
+                  </div>
                 </div>
               </div>
             </div>
@@ -142,38 +144,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
           </div>
           <div class="text-sm text-gray-700">
             ※最新の運航情報は津軽海峡フェリーへお問い合わせください。
-            <dl class="not-prose ml-4 mt-2 space-y-2">
-              <div class="flex items-center">
-                <dt class="mr-1 text-sm font-semibold text-gray-700">
-                  ホームページ:
-                </dt>
-                <dd>
-                  <a
-                    class="text-blue-600 underline decoration-blue-600 hover:text-blue-900 hover:decoration-blue-900"
-                    href="https://www.tsugarukaikyo.co.jp/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://www.tsugarukaikyo.co.jp/
-                    <ArrowTopRightOnSquareIcon
-                      class="-mt-1 inline h-4 w-4"
-                      aria-hidden="true"
-                    />
-                  </a>
-                </dd>
-              </div>
-              <div class="flex items-center">
-                <dt class="mr-1 text-sm font-semibold text-gray-700">
-                  電話番号:
-                </dt>
-                <dd>
-                  <a
-                    class="text-blue-600 underline decoration-blue-600 hover:text-blue-900 hover:decoration-blue-900"
-                    href="tel:0143-83-4080"
-                    >0143-83-4080</a
-                  >
-                </dd>
-              </div>
-            </dl>
+            <TsugaruKaikyoContact />
           </div>
         </div>
       </section>
