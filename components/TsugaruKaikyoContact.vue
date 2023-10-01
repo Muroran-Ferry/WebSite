@@ -29,6 +29,10 @@
   </dl>
 </template>
 
+<script setup lang="ts">
+import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
+</script>
+
 <style lang="postcss" scoped>
 dt {
   @apply text-sm font-semibold text-gray-700;

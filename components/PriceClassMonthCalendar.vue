@@ -103,12 +103,10 @@ const today = computed(() => {
 });
 
 const findPriceClass = (date: cdate.CDate) => {
-  if (props.startDate.toDate().getDate() > date.toDate().getDate()) {
-    console.log('startDate');
+  if (props.startDate.toDate().getTime() > date.toDate().getTime()) {
     return undefined;
   }
-  if (props.endDate.toDate().getDate() < date.toDate().getDate()) {
-    console.log('endDate');
+  if (props.endDate.toDate().getTime() < date.toDate().getTime()) {
     return undefined;
   }
   const priceSchedule = props.priceSchedules.find((priceSchedule) => {

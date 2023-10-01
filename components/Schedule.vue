@@ -1,7 +1,3 @@
-<script lang="ts" setup>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
-</script>
-
 <template>
   <PageSection id="schedule">
     <template v-slot:header>航路・時刻</template>
@@ -74,6 +70,9 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   日曜日
+                  <div class="text-xs">
+                    ※2023年12月29日（金）～2024年1月3日（水）は運休
+                  </div>
                 </div>
               </div>
             </div>
@@ -124,6 +123,9 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   月曜日
+                  <div class="text-xs">
+                    ※2023年12月30日（土）～2024年1月4日（木）は運休
+                  </div>
                 </div>
               </div>
             </div>
