@@ -59,6 +59,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
               <dt>オンライン予約</dt>
               <dd>
                 <a
+                  class="break-all"
                   href="https://www.tsugarukaikyo.co.jp/"
                   target="_blank"
                   rel="noopener noreferrer"
