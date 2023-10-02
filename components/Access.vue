@@ -29,11 +29,19 @@
       <div class="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5">
         <dt class="text-sm font-medium text-gray-700 sm:pl-8">最寄り</dt>
         <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-          <ul>
-            <li>バス: 道南バス「室蘭港」停留所 徒歩約10分</li>
-            <li>JR: 室蘭駅 徒歩約15分</li>
-            <li>高速道路: 室蘭IC</li>
-          </ul>
+          <dl>
+            <dt>バス</dt>
+            <dd class="ml-4">
+              <ul>
+                <li>道南バス「入江運動公園」停留所 徒歩約10分</li>
+                <li>道南バス・中央バス「室蘭観光協会前」停留所 徒歩約15分</li>
+              </ul>
+            </dd>
+            <dt>JR</dt>
+            <dd class="ml-4">室蘭駅 徒歩約15分</dd>
+            <dt>高速道路</dt>
+            <dd class="ml-4">室蘭IC</dd>
+          </dl>
         </dd>
       </div>
 
