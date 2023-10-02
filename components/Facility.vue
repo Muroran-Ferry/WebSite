@@ -2,20 +2,35 @@
   <PageSection id="facility">
     <template v-slot:header>施設情報</template>
 
-    <div class="text-base font-semibold text-red-600">
-      2023年9月25日より施設開業予定です。
-    </div>
-
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <section>
         <h4
           class="bg-sky-500 px-4 py-2 text-base font-semibold leading-6 text-white"
         >
-          売店
+          フロアガイド
         </h4>
         <dl>
-          <dt>営業時間</dt>
-          <dd>10時から16時（予定）</dd>
+          <dt>1階</dt>
+          <dd>
+            <ul>
+              <li>乗船手続きカウンター</li>
+              <li>飲料自販機</li>
+              <li>コインロッカー</li>
+            </ul>
+          </dd>
+          <dt>2階</dt>
+          <dd>
+            <ul>
+              <li>飲料自販機</li>
+              <li>フード自販機・電子レンジ</li>
+              <li>待合ロビー</li>
+              <li>カプセルトイコーナー</li>
+              <li>トイレ</li>
+              <li>授乳室</li>
+            </ul>
+          </dd>
+          <dt>3階</dt>
+          <dd>閉鎖中</dd>
         </dl>
       </section>
 
