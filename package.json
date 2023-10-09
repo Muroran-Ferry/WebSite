@@ -17,7 +17,7 @@
     "@types/node": "20.8.0",
     "autoprefixer": "10.4.16",
     "cdate": "0.0.7",
-    "nuxt": "3.7.3",
+    "nuxt": "3.7.4",
     "nuxt-jsonld": "2.0.8",
     "postcss": "8.4.31",
     "prettier": "3.0.3",
