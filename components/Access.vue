@@ -12,52 +12,48 @@
     </div>
 
     <dl class="not-prose sm:divide-y sm:divide-gray-200">
-      <div class="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5">
-        <dt class="text-sm font-medium text-gray-700 sm:pl-8">住所</dt>
-        <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-          〒051-0023 北海道室蘭市⼊江町１番地５０
-        </dd>
-      </div>
+      <OrganismsAccessItem>
+        <template #title>住所</template>
+        〒051-0023 北海道室蘭市⼊江町１番地５０
+      </OrganismsAccessItem>
 
-      <div class="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5">
-        <dt class="text-sm font-medium text-gray-700 sm:pl-8">MAPCODE</dt>
-        <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-          159 252 650*88
-        </dd>
-      </div>
+      <OrganismsAccessItem>
+        <template #title>MAPCODE</template>
+        <p class="select-all">159 252 650*88</p>
+      </OrganismsAccessItem>
 
-      <div class="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5">
-        <dt class="text-sm font-medium text-gray-700 sm:pl-8">最寄り</dt>
-        <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-          <dl>
-            <dt>バス</dt>
-            <dd class="ml-4">
-              <ul>
-                <li>道南バス「入江運動公園」停留所 徒歩約10分</li>
-                <li>道南バス・中央バス「室蘭観光協会前」停留所 徒歩約15分</li>
-              </ul>
-            </dd>
-            <dt>JR</dt>
-            <dd class="ml-4">室蘭駅 徒歩約15分</dd>
-            <dt>高速道路</dt>
-            <dd class="ml-4">室蘭IC</dd>
-          </dl>
-        </dd>
-      </div>
+      <OrganismsAccessItem>
+        <template #title>最寄り</template>
+        <dl>
+          <dt>バス</dt>
+          <dd class="ml-4">
+            <ul>
+              <li>道南バス「入江運動公園」停留所 徒歩約10分</li>
+              <li>道南バス・中央バス「室蘭観光協会前」停留所 徒歩約15分</li>
+            </ul>
+          </dd>
+          <dt>JR</dt>
+          <dd class="ml-4">室蘭駅 徒歩約15分</dd>
+          <dt>高速道路</dt>
+          <dd class="ml-4">室蘭IC</dd>
+        </dl>
+      </OrganismsAccessItem>
 
-      <div class="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-5">
-        <dt class="text-sm font-medium text-gray-700 sm:pl-8">
-          主要都市からの所要時間
-        </dt>
-        <dd class="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-          <ul>
-            <li>札幌から: 約2時間 (道央自動車道)</li>
-            <li>新千歳空港から: 約1時間20分 (道央自動車道)</li>
-            <li>苫小牧から: 約1時間15分 (道央自動車道)</li>
-            <li>函館から: 約3時間 (道央自動車道)</li>
-          </ul>
-        </dd>
-      </div>
+      <OrganismsAccessItem>
+        <template #title>主要都市からの所要時間</template>
+        <ul>
+          <li>札幌から: 約2時間 (道央自動車道)</li>
+          <li>新千歳空港から: 約1時間20分 (道央自動車道)</li>
+          <li>苫小牧から: 約1時間15分 (道央自動車道)</li>
+          <li>函館から: 約3時間 (道央自動車道)</li>
+        </ul>
+      </OrganismsAccessItem>
+
+      <OrganismsAccessItem>
+        <template #title>駐車場について</template>
+        ターミナル駐車場は乗下船及び送迎等の短時間の利用を目的としたスペースです。<br />
+        フェリーを利用しての旅行の際は、お車を駐車場に停めておくことはできませんので、公共交通機関にてお越しください。
+      </OrganismsAccessItem>
     </dl>
   </PageSection>
 </template>
