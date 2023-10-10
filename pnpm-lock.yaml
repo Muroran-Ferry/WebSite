@@ -51,8 +51,8 @@ devDependencies:
     specifier: 3.3.3
     version: 3.3.3
   volar-service-vetur:
-    specifier: 0.0.13
-    version: 0.0.13
+    specifier: 0.0.14
+    version: 0.0.14
   vue-gtag-next:
     specifier: 1.14.0
     version: 1.14.0(vue@3.3.4)
@@ -7479,8 +7479,8 @@ packages:
       - supports-color
     dev: true
 
-  /volar-service-vetur@0.0.13:
-    resolution: {integrity: sha512-1VVfl3u2kjVzcD2T1nGF0f25BZNHFmlkfri7CoFiHi0yEUot4Pk8ruVzTKlN+wXlM9AoJYt2Fo+HgfCqpuV2Ag==}
+  /volar-service-vetur@0.0.14:
+    resolution: {integrity: sha512-fvSqR/GrKBF0jxE5QWOrQkEeggD6r4UepFVBSnh6vUgShrS2TxddFe8/NEl4s1nMdACYwCWnq+s6PB+FakUA2w==}
     peerDependencies:
       '@volar/language-service': ~1.10.0
     peerDependenciesMeta:
