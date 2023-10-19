@@ -3,7 +3,7 @@
     <template v-slot:header>観光案内</template>
     <div class="grid gap-4">
       <section>
-        <h4 class="py-2 px-4 text-base font-semibold leading-6 text-gray-900">
+        <h4 class="px-4 py-2 text-base font-semibold leading-6 text-gray-900">
           室蘭の観光情報
         </h4>
         <ul role="list" class="list-disc space-y-2 pl-10 pr-4">
@@ -24,7 +24,7 @@
       </section>
 
       <section>
-        <h4 class="py-2 px-4 text-base font-semibold leading-6 text-gray-900">
+        <h4 class="px-4 py-2 text-base font-semibold leading-6 text-gray-900">
           青森の観光情報
         </h4>
         <ul role="list" class="list-disc space-y-2 pl-10 pr-4">
@@ -45,7 +45,7 @@
       </section>
 
       <section>
-        <h4 class="py-2 px-4 text-base font-semibold leading-6 text-gray-900">
+        <h4 class="px-4 py-2 text-base font-semibold leading-6 text-gray-900">
           宮古の観光情報
         </h4>
         <ul role="list" class="list-disc space-y-2 pl-10 pr-4">
