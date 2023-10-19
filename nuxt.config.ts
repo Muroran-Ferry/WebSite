@@ -10,6 +10,8 @@ export default defineNuxtConfig({
       HOLIDAY_API_URL: process.env.NUXT_PUBLIC_HOLIDAY_API_URL,
       SEIRAN_PRICE_SCHEDULE_API_URL:
         process.env.NUXT_PUBLIC_SEIRAN_PRICE_SCHEDULE_API_URL,
+      FRESHDESK_CONTACT_FORM_WIDGET_ID:
+        process.env.NUXT_PUBLIC_FRESHDESK_CONTACT_FORM_WIDGET_ID,
     },
   },
   modules: ['@nuxt/devtools', '@nuxtjs/web-vitals', 'nuxt-jsonld'],
