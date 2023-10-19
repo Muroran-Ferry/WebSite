@@ -1,3 +1,3 @@
 export default defineAppConfig({
-  title: "室蘭フェリーターミナル",
+  title: '室蘭フェリーターミナル',
 });

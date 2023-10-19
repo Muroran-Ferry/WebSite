@@ -7,37 +7,50 @@
         <h4>個人情報取得・保護に関して</h4>
         <div>
           <p>
-            当サイトへのトラフィックを分析およびパーソナライズした広告を掲載するために Cookie を使用しています。
-            このサイトの利用に関する情報は、この目的に沿って Google と共有されます。
+            当サイトへのトラフィックを分析およびパーソナライズした広告を掲載するために
+            Cookie を使用しています。
+            このサイトの利用に関する情報は、この目的に沿って Google
+            と共有されます。
           </p>
           <p>
             このデータは匿名で収集されており、個人を特定するものではありません。
             この機能は
-            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google アナリティクス オプトアウト アドオン</a>
+            <a
+              href="https://tools.google.com/dlpage/gaoptout"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Google アナリティクス オプトアウト アドオン</a
+            >
             および
-            <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer">広告設定</a>
-            あるいはお使いのブラウザの設定から Cookie を無効にすることで収集を拒否することが出来ます。
+            <a
+              href="https://www.google.com/settings/ads"
+              target="_blank"
+              rel="noopener noreferrer"
+              >広告設定</a
+            >
+            あるいはお使いのブラウザの設定から Cookie
+            を無効にすることで収集を拒否することが出来ます。
           </p>
-          <p>
-            この規約に関しての詳細は以下のページをご覧ください。
-            <ul>
-              <li>
-                <a
-                  href="https://policies.google.com/technologies/partner-sites"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Google のサービスを使用するサイトやアプリから収集した情報の Google
-                  による使用</a>
-              </li>
-              <li>
-                <a
-                  href="https://support.google.com/analytics/answer/6004245"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >Google アナリティクス データの保護</a>
-              </li>
-            </ul>
-          </p>
+          <p>この規約に関しての詳細は以下のページをご覧ください。</p>
+          <ul>
+            <li>
+              <a
+                href="https://policies.google.com/technologies/partner-sites"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google のサービスを使用するサイトやアプリから収集した情報の
+                Google による使用</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://support.google.com/analytics/answer/6004245"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google アナリティクス データの保護</a
+              >
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -68,6 +81,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: "サイトポリシー",
-})
+  title: 'サイトポリシー',
+});
 </script>
