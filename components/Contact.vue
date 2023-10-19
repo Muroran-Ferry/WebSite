@@ -32,15 +32,16 @@
       </section>
 
       <section>
-        <h4>ウェブサイトに関するお問い合わせ</h4>
+        <h4>ウェブサイトに関するお問い合わせ・情報提供</h4>
         <div class="py-4">
-          <a
-            href="https://github.com/Muroran-Ferry/WebSite"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            GitHub: Muroran-Ferry/WebSite
-          </a>
+          <p>右下の「お問い合わせ」よりお問い合わせください。</p>
+          <p>
+            内容の正確性には細心の注意を払っておりますが、万一、誤りがあった場合はご指摘いただけますと幸いです。
+          </p>
+          <p>
+            なお、本サイトはファンサイトであり、公式サイトではありません。
+            予めご了承ください。
+          </p>
         </div>
       </section>
     </div>
