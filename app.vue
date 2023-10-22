@@ -20,8 +20,8 @@ useHead({
   },
 });
 
-const appManifest = await getAppManifest();
-console.log('buildInfo', useAppConfig().nuxt?.buildId, appManifest.timestamp);
+// const appManifest = await getAppManifest();
+// console.log('buildInfo', useAppConfig().nuxt?.buildId, appManifest.timestamp);
 
 onMounted(() => {
   new ScrollHint('[data-scroll-hint]', {
