@@ -12,6 +12,8 @@ export default defineNuxtConfig({
         process.env.NUXT_PUBLIC_SEIRAN_PRICE_SCHEDULE_API_URL,
       FRESHDESK_CONTACT_FORM_WIDGET_ID:
         process.env.NUXT_PUBLIC_FRESHDESK_CONTACT_FORM_WIDGET_ID,
+      GOOGLE_MAPS_API_KEY: process.env.NUXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+      PLACE_ID: process.env.NUXT_PUBLIC_PLACE_ID,
     },
   },
   modules: ['@nuxt/devtools', '@nuxtjs/web-vitals', 'nuxt-jsonld'],
