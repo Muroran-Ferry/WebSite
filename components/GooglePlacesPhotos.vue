@@ -92,8 +92,9 @@ onMounted(() => {
       const { place } = await new Place({
         id: config.public.PLACE_ID,
       }).fetchFields({ fields: ['photos'] });
+      // NOTE: APIコール数を抑えるため、写真は最大8枚まで取得する
       photos.value =
-        place.photos?.map((photo) => ({
+        place.photos?.slice(0, 8)?.map((photo) => ({
           authorAttributions: photo.authorAttributions,
           src: photo.getURI({ maxWidth }),
           heightPx: photo.heightPx,

@@ -2,7 +2,22 @@
   <div>
     <ToppageHero class="not-prose z-0">
       <div class="hidden w-full sm:absolute sm:bottom-[12%] sm:z-50 sm:block">
-        <div class="mx-auto max-w-7xl px-16 xl:px-24">
+        <div class="mx-auto max-w-7xl space-y-4 px-16 xl:px-24">
+          <div
+            class="flex w-full max-w-xl items-stretch rounded-md bg-white/80 p-4"
+          >
+            <header class="px-4 py-2">
+              <h3 class="text-xl font-semibold text-sky-500">運航状況</h3>
+            </header>
+
+            <ClientOnly>
+              <SeiranStatus
+                class="not-prose inline-flex items-center px-4 py-2"
+                :status="status"
+              />
+            </ClientOnly>
+          </div>
+
           <div class="w-full max-w-xl rounded-md bg-white/80 p-4">
             <header class="mb-2 border-b border-sky-500">
               <h3
@@ -20,6 +35,24 @@
     <MainMenu class="not-prose relative z-10" />
 
     <div class="w-full sm:hidden">
+      <section id="status" class="mx-auto max-w-7xl p-6 lg:px-8">
+        <div class="flex items-stretch border-4 border-sky-500">
+          <header
+            class="inline-flex flex-none items-center bg-sky-500 px-4 py-2"
+          >
+            <h3 class="text-xl font-semibold leading-6 text-gray-100">
+              運航状況
+            </h3>
+          </header>
+          <ClientOnly>
+            <SeiranStatus
+              class="not-prose inline-flex items-center px-4 py-2"
+              :status="status"
+            />
+          </ClientOnly>
+        </div>
+      </section>
+
       <PageSection id="schedule">
         <template v-slot:header>お知らせ</template>
         <AnnouncementList class="not-prose" />
@@ -58,3 +91,53 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+import { seiranStatus } from '~/schemas/seiran_status';
+
+import type { SeiranStatus } from '~/schemas/seiran_status';
+
+const config = useRuntimeConfig();
+
+// refs
+const status = ref({
+  loading: false,
+  data: null as SeiranStatus | null,
+});
+
+const timer = ref<number | null>(null);
+
+// methods
+const fetchStatus = async () => {
+  try {
+    status.value.loading = true;
+    const data = await $fetch(config.public.SEIRAN_STATUS_API_URL);
+    status.value.data = seiranStatus.parse(data);
+  } catch (error) {
+    status.value.data = null;
+    console.error(error);
+  } finally {
+    status.value.loading = false;
+  }
+};
+
+// lifecycle
+onMounted(async () => {
+  await fetchStatus();
+
+  if (!timer.value) {
+    timer.value = window.setInterval(
+      async () => {
+        await fetchStatus();
+      },
+      1000 * 60 * 2
+    );
+  }
+});
+
+onUnmounted(() => {
+  if (timer.value) {
+    window.clearInterval(timer.value);
+  }
+});
+</script>

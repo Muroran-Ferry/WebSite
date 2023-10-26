@@ -1,5 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // https://github.com/nuxt/nuxt/issues/23796
+  // https://github.com/unjs/nitro/issues/1844
+  experimental: { appManifest: false },
+
   devtools: { enabled: true },
 
   runtimeConfig: {
@@ -10,6 +14,8 @@ export default defineNuxtConfig({
       HOLIDAY_API_URL: process.env.NUXT_PUBLIC_HOLIDAY_API_URL,
       SEIRAN_PRICE_SCHEDULE_API_URL:
         process.env.NUXT_PUBLIC_SEIRAN_PRICE_SCHEDULE_API_URL,
+      SEIRAN_STATUS_API_URL:
+        process.env.NUXT_PUBLIC_SEIRAN_STATUS_API_URL,
       FRESHDESK_CONTACT_FORM_WIDGET_ID:
         process.env.NUXT_PUBLIC_FRESHDESK_CONTACT_FORM_WIDGET_ID,
       GOOGLE_MAPS_API_KEY: process.env.NUXT_PUBLIC_GOOGLE_MAPS_API_KEY,
