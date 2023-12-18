@@ -16,7 +16,7 @@
     "@nuxtjs/web-vitals": "0.2.6",
     "@tailwindcss/typography": "0.5.10",
     "@types/google.maps": "3.54.7",
-    "@types/node": "20.10.0",
+    "@types/node": "20.10.5",
     "@yeger/vue-masonry-wall": "5.0.2",
     "autoprefixer": "10.4.16",
     "cdate": "0.0.7",
