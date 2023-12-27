@@ -1,5 +1,5 @@
 <template>
-  <PageSection id="contact">
+  <PageSection id="campaigns">
     <template v-slot:header>キャンペーン</template>
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">

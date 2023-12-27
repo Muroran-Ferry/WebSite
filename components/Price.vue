@@ -21,7 +21,11 @@
             :price-schedules="priceSchedules.data"
           />
 
+          <!-- 2023年末 - 2024年始の運航 -->
           <SeiranNewYear2024Calendar class="mt-8" />
+
+          <!-- 1月-4月の臨時運休 -->
+          <SeiranTemporarySuspension class="mt-8" />
 
           <PriceClassCalendar
             class="mt-8"
@@ -571,7 +575,7 @@
         >
           宮古・八戸発着（宮蘭航路）
         </h4>
-        <div class="py-4">運行休止中</div>
+        <div class="py-4">運航休止中</div>
       </section>
     </div>
   </PageSection>

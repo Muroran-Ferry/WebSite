@@ -4,8 +4,8 @@
 
     <div class="grid gap-4 bg-white px-8 py-6">
       <section>
-        <h4>フェリーに関するお問い合わせ（運行・運賃/料金・予約等）</h4>
-        <div class="py-4">各運行会社にお問い合わせください。</div>
+        <h4>フェリーに関するお問い合わせ（運航・運賃/料金・予約等）</h4>
+        <div class="py-4">各運航会社にお問い合わせください。</div>
         <div class="py-4">
           <h5
             class="flex flex-wrap items-center justify-between border-b-2 border-rose-500 px-4 py-2 font-semibold text-rose-500"
