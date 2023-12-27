@@ -14,12 +14,12 @@
             <div
               class="mt-1 flex items-center text-sm font-semibold text-gray-50"
             >
-              運行事業者: 津軽海峡フェリー
+              運航事業者: 津軽海峡フェリー
             </div>
             <div
               class="mt-1 flex items-center text-sm font-semibold text-gray-50"
             >
-              運航期間: 2023年10月2日運行開始
+              運航期間: 2023年10月2日運航開始
             </div>
           </div>
         </header>
@@ -71,7 +71,9 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   日曜日
                   <div class="text-xs">
-                    ※2023年12月29日（金）～2024年1月3日（水）は運休
+                    ※2023年12月29日（金）～2024年1月3日（水）は運休<br/>
+                    ※2024年1月13日（土）～2024年3月26日（火）は運休<br/>
+                    ※2024年4月3日（水）～2024年4月16日（火）は運休<br/>
                   </div>
                 </div>
               </div>
@@ -124,7 +126,9 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   月曜日
                   <div class="text-xs">
-                    ※2023年12月30日（土）～2024年1月4日（木）は運休
+                    ※2023年12月30日（土）～2024年1月4日（木）は運休<br/>
+                    ※2024年1月14日（日）～2024年3月26日（火）は運休<br/>
+                    ※2024年4月4日（木）～2024年4月16日（火）は運休<br/>
                   </div>
                 </div>
               </div>
@@ -155,7 +159,7 @@
         >
           宮古・八戸発着（宮蘭航路）
         </h4>
-        <div class="py-4">運行休止中</div>
+        <div class="py-4">運航休止中</div>
       </section>
     </div>
   </PageSection>
