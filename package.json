@@ -9,7 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@fancyapps/ui": "5.0.32",
+    "@fancyapps/ui": "5.0.33",
     "@googlemaps/js-api-loader": "1.16.2",
     "@headlessui/vue": "1.7.16",
     "@heroicons/vue": "2.1.1",
