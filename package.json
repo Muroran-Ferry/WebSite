@@ -11,7 +11,7 @@
   "devDependencies": {
     "@fancyapps/ui": "5.0.33",
     "@googlemaps/js-api-loader": "1.16.2",
-    "@headlessui/vue": "1.7.16",
+    "@headlessui/vue": "1.7.17",
     "@heroicons/vue": "2.1.1",
     "@nuxtjs/web-vitals": "0.2.6",
     "@tailwindcss/typography": "0.5.10",
