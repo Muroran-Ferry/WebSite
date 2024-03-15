@@ -15,7 +15,7 @@
     "@heroicons/vue": "2.1.1",
     "@nuxtjs/web-vitals": "0.2.6",
     "@tailwindcss/typography": "0.5.10",
-    "@types/google.maps": "3.54.10",
+    "@types/google.maps": "3.55.4",
     "@types/node": "20.11.7",
     "@yeger/vue-masonry-wall": "5.0.3",
     "autoprefixer": "10.4.16",
