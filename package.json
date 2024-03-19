@@ -20,7 +20,7 @@
     "@yeger/vue-masonry-wall": "5.0.3",
     "autoprefixer": "10.4.16",
     "cdate": "0.0.7",
-    "nuxt": "3.9.0",
+    "nuxt": "3.11.1",
     "nuxt-jsonld": "2.0.8",
     "postcss": "8.4.33",
     "prettier": "3.1.1",
