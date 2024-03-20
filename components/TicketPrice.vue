@@ -24,6 +24,9 @@
           <!-- 1月-4月の臨時運休 -->
           <SeiranTemporarySuspension class="mt-8" />
 
+          <!-- ゴールデンウィーク臨時便 -->
+          <SeiranGW2024Calendar class="mt-8" />
+
           <PriceClassCalendar
             v-if="
               !priceSchedules.loading &&
