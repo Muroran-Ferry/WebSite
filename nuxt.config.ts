@@ -1,3 +1,5 @@
+import { webpackStats } from 'rollup-plugin-webpack-stats';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -52,5 +54,13 @@ export default defineNuxtConfig({
     // provider: '', // auto detectd
     debug: false,
     disabled: false,
+  },
+
+  vite: {
+    plugins: [
+      // Output webpack-stats.json file
+      // https://relative-ci.com/documentation/guides/bundle-stats/vite
+      webpackStats(),
+    ],
   },
 });
