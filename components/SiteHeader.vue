@@ -14,11 +14,11 @@
           @click="mobileMenuOpen = true"
         >
           <span class="sr-only">メインメニューを表示する</span>
-          <Bars3Icon class="h-6 w-6" aria-hidden="true" />
+          <Bars3Icon class="size-6" aria-hidden="true" />
         </button>
       </div>
       <div class="hidden lg:grid lg:gap-y-4">
-        <div class="order-1 ml-auto flex gap-x-8 xl:gap-x-12">
+        <div class="order-2 ml-auto flex gap-x-8 xl:gap-x-12">
           <nuxt-link
             v-for="item in navigation"
             :key="item.name"
@@ -27,7 +27,7 @@
             >{{ item.name }}</nuxt-link
           >
         </div>
-        <div class="order-0 ml-auto flex gap-x-6">
+        <div class="order-1 ml-auto flex gap-x-6">
           <nuxt-link
             v-for="item in subNavigation"
             :key="item.name"
@@ -46,12 +46,12 @@
       <Dialog
         as="div"
         class="lg:hidden"
-        @close="mobileMenuOpen = false"
         :open="mobileMenuOpen"
+        @close="mobileMenuOpen = false"
       >
         <div class="fixed inset-0 z-30"></div>
         <DialogPanel
-          class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+          class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
         >
           <div class="flex items-center justify-between">
             <nuxt-link href="#" class="-m-1.5 p-1.5">
@@ -63,7 +63,7 @@
               @click="mobileMenuOpen = false"
             >
               <span class="sr-only">メニューを閉じる</span>
-              <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+              <XMarkIcon class="size-6" aria-hidden="true" />
             </button>
           </div>
           <div class="mt-6 flow-root">

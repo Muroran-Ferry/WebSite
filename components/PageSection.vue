@@ -17,5 +17,7 @@ interface Props {
   id?: string;
 }
 
-withDefaults(defineProps<Props>(), {});
+withDefaults(defineProps<Props>(), {
+  id: undefined,
+});
 </script>

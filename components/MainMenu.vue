@@ -11,9 +11,9 @@
         class="group flex flex-1 flex-col justify-center text-sm font-light leading-6 text-gray-500 hover:text-gray-900"
       >
         <component
-          class="w-full px-4 py-2"
-          v-if="item.icon"
           :is="item.icon"
+          v-if="item.icon"
+          class="w-full px-4 py-2"
         ></component>
         <div
           class="mx-auto w-fit border-b-4 border-b-transparent group-hover:border-b-sky-500"

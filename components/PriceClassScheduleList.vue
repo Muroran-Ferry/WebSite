@@ -3,7 +3,7 @@
     <PriceClassScheduleItem
       v-for="(priceSchedule, i) in priceSchedules"
       :key="i"
-      :priceSchedule="priceSchedule"
+      :price-schedule="priceSchedule"
       role="listitem"
     />
   </div>
@@ -18,5 +18,3 @@ interface Props {
 
 withDefaults(defineProps<Props>(), {});
 </script>
-
-<style></style>

@@ -1,6 +1,6 @@
 <template>
   <PageSection>
-    <template v-slot:header>サイトポリシー</template>
+    <template #header>サイトポリシー</template>
 
     <div class="prose max-w-full">
       <section>

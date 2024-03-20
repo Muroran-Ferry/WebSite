@@ -1,11 +1,11 @@
 <template>
   <PageSection id="tourist-information">
-    <template v-slot:header>フォトギャラリー</template>
+    <template #header>フォトギャラリー</template>
     <div class="space-y-4">
       <p class="text-sm text-gray-700">
         Google Maps に投稿されたフェリーターミナルの写真です。
       </p>
-      <Fancybox
+      <FancyBox
         :options="{
           Carousel: {
             infinite: false,
@@ -18,7 +18,7 @@
           :column-width="300"
           :gap="16"
         >
-          <template #default="{ item, index }">
+          <template #default="{ item }">
             <a class="relative" data-fancybox="gallery" :href="item.src">
               <img
                 :src="item.src"
@@ -45,7 +45,7 @@
             </a>
           </template>
         </masonry-wall>
-      </Fancybox>
+      </FancyBox>
       <nuxt-link
         :to="`https://www.google.com/maps/search/?api=1&query=${encodeURI(
           '室蘭フェリーターミナル'
@@ -102,6 +102,7 @@ onMounted(() => {
         })) ?? [];
     })
     .catch((error) => {
+      // eslint-disable-next-line no-console
       console.error(error);
     });
 });

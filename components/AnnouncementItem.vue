@@ -8,7 +8,7 @@
       {{ announcement.title }}
       <ArrowTopRightOnSquareIcon
         v-if="isExternalLink"
-        class="-mt-1 ml-1 inline-block h-4 w-4"
+        class="-mt-1 ml-1 inline-block size-4"
       />
     </nuxt-link>
   </div>
@@ -43,5 +43,3 @@ const isExternalLink = computed(() => {
   );
 });
 </script>
-
-<style></style>

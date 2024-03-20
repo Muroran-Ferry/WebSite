@@ -14,16 +14,16 @@
         {{ month.format('YYYY年MM月') }}
       </h5>
       <PriceClassMonthCalendar
-        :priceSchedules="priceSchedules"
+        :price-schedules="priceSchedules"
         :month="month"
-        :startDate="startDate"
-        :endDate="endDate"
+        :start-date="startDate"
+        :end-date="endDate"
         :color="color"
         :holidays="holidays"
       />
     </div>
     <ClientOnly>
-      <div v-if="isOmitted" class="absolute bottom-0 left-0 right-0 z-10">
+      <div v-if="isOmitted" class="absolute inset-x-0 bottom-0 z-10">
         <button
           type="button"
           class="mt-4 w-full rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50"
@@ -77,6 +77,7 @@ try {
       return cdate(holiday.date);
     });
 } catch (error) {
+  // eslint-disable-next-line no-console
   console.error(error);
 }
 
@@ -108,5 +109,3 @@ const months = computed(() => {
   return months;
 });
 </script>
-
-<style></style>

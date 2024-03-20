@@ -1,6 +1,6 @@
 <template>
   <PageSection id="schedule">
-    <template v-slot:header>航路・時刻</template>
+    <template #header>航路・時刻</template>
 
     <div class="grid gap-4">
       <section>
@@ -71,9 +71,9 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   日曜日
                   <div class="text-xs">
-                    ※2023年12月29日（金）～2024年1月3日（水）は運休<br/>
-                    ※2024年1月13日（土）～2024年3月26日（火）は運休<br/>
-                    ※2024年4月3日（水）～2024年4月16日（火）は運休<br/>
+                    ※2023年12月29日（金）～2024年1月3日（水）は運休<br />
+                    ※2024年1月13日（土）～2024年3月26日（火）は運休<br />
+                    ※2024年4月3日（水）～2024年4月16日（火）は運休<br />
                   </div>
                 </div>
               </div>
@@ -126,9 +126,9 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   月曜日
                   <div class="text-xs">
-                    ※2023年12月30日（土）～2024年1月4日（木）は運休<br/>
-                    ※2024年1月14日（日）～2024年3月26日（火）は運休<br/>
-                    ※2024年4月4日（木）～2024年4月16日（火）は運休<br/>
+                    ※2023年12月30日（土）～2024年1月4日（木）は運休<br />
+                    ※2024年1月14日（日）～2024年3月26日（火）は運休<br />
+                    ※2024年4月4日（木）～2024年4月16日（火）は運休<br />
                   </div>
                 </div>
               </div>
