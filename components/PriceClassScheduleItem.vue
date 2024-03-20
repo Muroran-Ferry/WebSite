@@ -38,5 +38,3 @@ const endDateText = computed(() => {
   }
 });
 </script>
-
-<style></style>

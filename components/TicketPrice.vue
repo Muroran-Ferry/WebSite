@@ -1,6 +1,6 @@
 <template>
   <PageSection id="price">
-    <template v-slot:header>運賃・料金</template>
+    <template #header>運賃・料金</template>
 
     <div class="grid grid-cols-1 gap-4">
       <section>
@@ -16,8 +16,8 @@
           </p>
 
           <SeiranPriceSchedule
-            class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:items-stretch"
             v-if="!priceSchedules.loading && priceSchedules.data.length > 0"
+            class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:items-stretch"
             :price-schedules="priceSchedules.data"
           />
 
@@ -28,12 +28,12 @@
           <SeiranTemporarySuspension class="mt-8" />
 
           <PriceClassCalendar
-            class="mt-8"
             v-if="
               !priceSchedules.loading &&
               priceSchedules.data.length > 0 &&
               calendarStartDate <= calendarEndDate
             "
+            class="mt-8"
             :price-schedules="priceSchedules.data"
             :start-date="calendarStartDate"
             :end-date="calendarEndDate"
@@ -123,7 +123,7 @@
                 </header>
 
                 <div class="mt-4 text-sm">
-                  大人運賃の半額　※10円未満の端数は四捨五入
+                  大人運賃の半額 ※10円未満の端数は四捨五入
                 </div>
               </div>
 
@@ -296,7 +296,7 @@
                         >
                           津軽海峡フェリー公式サイト
                           <ArrowTopRightOnSquareIcon
-                            class="inline-block h-4 w-4"
+                            class="inline-block size-4"
                           />
                         </a>
                         をご確認ください
@@ -542,7 +542,7 @@
                     rel="noopener noreferrer"
                   >
                     津軽海峡フェリー公式サイト
-                    <ArrowTopRightOnSquareIcon class="inline-block h-4 w-4" />
+                    <ArrowTopRightOnSquareIcon class="inline-block size-4" />
                   </a>
                   をご確認ください。
                 </p>
@@ -603,6 +603,7 @@ try {
   );
   priceSchedules.value.data = priceScheduleSchema.array().parse(data.value);
 } catch (error) {
+  // eslint-disable-next-line no-console
   console.error(error);
 } finally {
   priceSchedules.value.loading = false;
@@ -635,5 +636,3 @@ const calendarEndDate = computed(() => {
     : date;
 });
 </script>
-
-<style></style>

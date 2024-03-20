@@ -54,28 +54,28 @@
       </section>
 
       <PageSection id="schedule">
-        <template v-slot:header>お知らせ</template>
+        <template #header>お知らせ</template>
         <AnnouncementList class="not-prose" />
       </PageSection>
     </div>
 
-    <Campaigns class="not-prose" />
-    <Schedule
+    <EventCampaigns class="not-prose" />
+    <RouteSchedule
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <Facility
+    <FacilityInformation
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <Access
+    <Information
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <Reserve
+    <BoardingReservation
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <Embarkation
+    <BoardingGuide
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <Price
+    <TicketPrice
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
     <TouristInformation
@@ -85,7 +85,7 @@
     <GooglePlacesPhotos />
 
     <div class="bg-sky-500 pb-8">
-      <Contact
+      <ContactInformation
         class="prose prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
       />
     </div>
@@ -115,6 +115,7 @@ const fetchStatus = async () => {
     status.value.data = seiranStatus.parse(data);
   } catch (error) {
     status.value.data = null;
+    // eslint-disable-next-line no-console
     console.error(error);
   } finally {
     status.value.loading = false;

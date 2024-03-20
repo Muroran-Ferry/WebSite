@@ -10,7 +10,7 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css';
 
 // props
 interface Props {
-  options?: Object;
+  options?: object;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -36,5 +36,3 @@ onUnmounted(() => {
   Fancybox.destroy();
 });
 </script>
-
-<style></style>

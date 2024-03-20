@@ -3,10 +3,11 @@
     <div class="sm:flex sm:items-center">
       <div class="sm:flex-auto">
         <h5 class="text-base font-semibold leading-6 text-gray-900">
-          2024年1月から4月 船体整備・船舶法定検査・函館-青森代船運航に伴う運休について
+          2024年1月から4月
+          船体整備・船舶法定検査・函館-青森代船運航に伴う運休について
         </h5>
         <p class="mt-2 text-sm text-gray-700">
-            2024年1月から4月の運航については、次の通り一部運休となります。
+          2024年1月から4月の運航については、次の通り一部運休となります。
         </p>
       </div>
     </div>
@@ -41,13 +42,13 @@
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                    1/14（日）～3/26（火）
+                  1/14（日）～3/26（火）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap py-4 pl-3 pr-4 text-center text-sm font-semibold text-gray-900"
                 >
-                    3/27（水）
+                  3/27（水）
                 </th>
               </tr>
             </thead>
@@ -144,13 +145,13 @@
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                    4/4（木）～4/16（火）
+                  4/4（木）～4/16（火）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap py-4 pl-3 pr-4 text-center text-sm font-semibold text-gray-900"
                 >
-                    4/17（水）
+                  4/17（水）
                 </th>
               </tr>
             </thead>

@@ -10,7 +10,7 @@
           rel="noopener noreferrer"
           >https://www.tsugarukaikyo.co.jp/
           <ArrowTopRightOnSquareIcon
-            class="-mt-1 inline h-4 w-4"
+            class="-mt-1 inline size-4"
             aria-hidden="true"
           />
         </a>

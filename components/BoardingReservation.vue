@@ -4,7 +4,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
 
 <template>
   <PageSection id="reserve">
-    <template v-slot:header>予約案内</template>
+    <template #header>予約案内</template>
 
     <div class="grid gap-8">
       <section>
@@ -48,7 +48,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                     target="_blank"
                     rel="noopener noreferrer"
                     >津軽海峡フェリー公式サイト<ArrowTopRightOnSquareIcon
-                      class="-mt-1 inline h-4 w-4"
+                      class="-mt-1 inline size-4"
                       aria-hidden="true"
                     />
                   </a>
@@ -65,7 +65,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                   rel="noopener noreferrer"
                   >津軽海峡フェリー (https://www.tsugarukaikyo.co.jp/)
                   <ArrowTopRightOnSquareIcon
-                    class="-mt-1 inline h-4 w-4"
+                    class="-mt-1 inline size-4"
                     aria-hidden="true"
                   />
                 </a>
@@ -77,7 +77,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                     target="_blank"
                     rel="noopener noreferrer"
                     >津軽海峡フェリー公式サイト<ArrowTopRightOnSquareIcon
-                      class="-mt-1 inline h-4 w-4"
+                      class="-mt-1 inline size-4"
                       aria-hidden="true"
                     />
                   </a>
@@ -103,7 +103,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                     target="_blank"
                     rel="noopener noreferrer"
                     >津軽海峡フェリー公式サイト<ArrowTopRightOnSquareIcon
-                      class="-mt-1 inline h-4 w-4"
+                      class="-mt-1 inline size-4"
                       aria-hidden="true"
                     />
                   </a>
@@ -120,7 +120,7 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                   target="_blank"
                   rel="noopener noreferrer"
                   >津軽海峡フェリー公式サイト<ArrowTopRightOnSquareIcon
-                    class="-mt-1 inline h-4 w-4"
+                    class="-mt-1 inline size-4"
                     aria-hidden="true"
                   />
                 </a>

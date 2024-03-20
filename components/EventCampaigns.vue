@@ -1,12 +1,12 @@
 <template>
   <PageSection id="campaigns">
-    <template v-slot:header>キャンペーン</template>
+    <template #header>キャンペーン</template>
 
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
       <CampaignCard
         v-for="(campaign, i) in campaigns"
         :key="i"
-        :imgSrc="campaign.imgSrc"
+        :img-src="campaign.imgSrc"
         :title="campaign.title"
         :description="campaign.description"
         :meta="campaign.meta"
@@ -37,5 +37,3 @@ const campaigns = ref([
   },
 ]);
 </script>
-
-<style></style>

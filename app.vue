@@ -24,6 +24,7 @@ useHead({
 // console.log('buildInfo', useAppConfig().nuxt?.buildId, appManifest.timestamp);
 
 onMounted(() => {
+  // eslint-disable-next-line no-new
   new ScrollHint('[data-scroll-hint]', {
     suggestiveShadow: true,
     i18n: {
@@ -37,18 +38,17 @@ onMounted(() => {
     window.fwSettings = {
       widget_id: parseInt(widgetId),
     };
-    // @ts-ignore
-    !(function () {
-      // @ts-ignore
-      if ('function' != typeof window.FreshworksWidget) {
-        var n = function () {
-          // @ts-ignore
-          n.q.push(arguments);
-        };
-        // @ts-ignore
-        (n.q = []), (window.FreshworksWidget = n);
-      }
-    })();
+
+    if (typeof (window as any).FreshworksWidget !== 'function') {
+      const n: {
+        q: any[];
+        (args: any): void;
+      } = function () {
+        n.q.push(arguments);
+      };
+      n.q = [];
+      (window as any).FreshworksWidget = n;
+    }
 
     const externalScript = Object.assign(document.createElement('script'), {
       type: 'text/javascript',

@@ -75,5 +75,3 @@ const classC = computed(() => {
   });
 });
 </script>
-
-<style></style>

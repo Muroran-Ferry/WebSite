@@ -1,6 +1,6 @@
 <template>
   <PageSection id="access">
-    <template v-slot:header>アクセス</template>
+    <template #header>アクセス</template>
     <div class="ggmap">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4612.725104020737!2d140.97539344487194!3d42.32534525999099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9fda9bd99e3641%3A0xe4a872684854469d!2z5a6k6Jit44OV44Kn44Oq44O844K_44O844Of44OK44Or!5e0!3m2!1sja!2sjp!4v1521888728832"
@@ -58,6 +58,26 @@
   </PageSection>
 </template>
 
+<script setup lang="ts">
+import type { BoatTerminal, WithContext, PostalAddress } from 'schema-dts';
+
+useJsonld((): [WithContext<BoatTerminal>] => {
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BoatTerminal',
+      name: '室蘭フェリーターミナル',
+      address: {
+        addressLocality: '室蘭市',
+        addressRegion: '北海道',
+        postalCode: '051-0023',
+        streetAddress: '⼊江町１番地５０',
+      } as PostalAddress,
+    },
+  ];
+});
+</script>
+
 <style lang="postcss" scoped>
 /* Google Maps */
 .ggmap {
@@ -74,23 +94,3 @@
   }
 }
 </style>
-
-<script setup lang="ts">
-import { BoatTerminal, WithContext, PostalAddress } from 'schema-dts';
-
-useJsonld((): [WithContext<BoatTerminal>] => {
-  return [
-    {
-      '@context': 'https://schema.org',
-      '@type': 'BoatTerminal',
-      name: '室蘭フェリーターミナル',
-      address: <PostalAddress>{
-        addressLocality: '室蘭市',
-        addressRegion: '北海道',
-        postalCode: '051-0023',
-        streetAddress: '⼊江町１番地５０',
-      },
-    },
-  ];
-});
-</script>

@@ -1,6 +1,6 @@
 <template>
   <ReversePageSection id="contact">
-    <template v-slot:header>お問い合わせ</template>
+    <template #header>お問い合わせ</template>
 
     <div class="grid gap-4 bg-white px-8 py-6">
       <section>
@@ -47,7 +47,3 @@
     </div>
   </ReversePageSection>
 </template>
-
-<script lang="ts" setup>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
-</script>

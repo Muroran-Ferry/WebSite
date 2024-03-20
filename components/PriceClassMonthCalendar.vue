@@ -130,5 +130,3 @@ const getColor = (date: cdate.CDate) => {
   return props.color[priceClass];
 };
 </script>
-
-<style></style>

@@ -24,7 +24,7 @@
         <span class="absolute inset-x-0 -top-px bottom-0"></span>
         詳しくはこちら
         <ArrowTopRightOnSquareIcon
-          class="-mt-1 inline h-4 w-4"
+          class="-mt-1 inline size-4"
           aria-hidden="true"
         />
       </a>
@@ -47,5 +47,3 @@ withDefaults(defineProps<Props>(), {
   meta: () => [],
 });
 </script>
-
-<style></style>

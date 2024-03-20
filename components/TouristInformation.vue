@@ -1,6 +1,6 @@
 <template>
   <PageSection id="tourist-information">
-    <template v-slot:header>観光案内</template>
+    <template #header>観光案内</template>
     <div class="grid gap-4">
       <section>
         <h4 class="px-4 py-2 text-base font-semibold leading-6 text-gray-900">
@@ -15,7 +15,7 @@
             >
               室蘭観光情報サイト: おっと！むろらん
               <ArrowTopRightOnSquareIcon
-                class="-mt-1 inline h-4 w-4"
+                class="-mt-1 inline size-4"
                 aria-hidden="true"
               />
             </a>
@@ -36,7 +36,7 @@
             >
               青森市観光情報サイト: あおもり案内名人
               <ArrowTopRightOnSquareIcon
-                class="-mt-1 inline h-4 w-4"
+                class="-mt-1 inline size-4"
                 aria-hidden="true"
               />
             </a>
@@ -57,7 +57,7 @@
             >
               宮古市: 観光情報
               <ArrowTopRightOnSquareIcon
-                class="-mt-1 inline h-4 w-4"
+                class="-mt-1 inline size-4"
                 aria-hidden="true"
               />
             </a>
@@ -70,7 +70,7 @@
             >
               宮古観光文化交流協会
               <ArrowTopRightOnSquareIcon
-                class="-mt-1 inline h-4 w-4"
+                class="-mt-1 inline size-4"
                 aria-hidden="true"
               />
             </a>

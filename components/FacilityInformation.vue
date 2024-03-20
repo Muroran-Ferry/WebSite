@@ -1,6 +1,6 @@
 <template>
   <PageSection id="facility">
-    <template v-slot:header>施設情報</template>
+    <template #header>施設情報</template>
 
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
       <section>
@@ -77,14 +77,15 @@
               <li>2024年1月4日（木）： 9:00～20:00（通常営業）</li>
             </ul>
             <p class="text-sm">
-
-              <a href="https://www.tsugarukaikyo.co.jp/topics_important/page/?id=1702603823qn0dR">
+              <a
+                href="https://www.tsugarukaikyo.co.jp/topics_important/page/?id=1702603823qn0dR"
+              >
                 お問い合わせ先についてはこちら<ArrowTopRightOnSquareIcon
-                class="-mt-1 inline h-4 w-4"
-                aria-hidden="true"
-              />
-            </a>をご確認ください。
-          </p>
+                  class="-mt-1 inline size-4"
+                  aria-hidden="true"
+                /> </a
+              >をご確認ください。
+            </p>
           </dd>
         </dl>
       </section>
