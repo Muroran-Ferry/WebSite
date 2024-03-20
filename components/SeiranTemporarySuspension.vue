@@ -139,13 +139,13 @@
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  4/3（水）
+                  4/2（火）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  4/4（木）～4/16（火）
+                  4/3（水）～4/16（火）
                 </th>
                 <th
                   scope="col"
@@ -199,7 +199,7 @@
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
                 >
-                  休
+                  ○
                 </td>
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
