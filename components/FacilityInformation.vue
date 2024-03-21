@@ -70,7 +70,3 @@
     </div>
   </PageSection>
 </template>
-
-<script lang="ts" setup>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
-</script>
