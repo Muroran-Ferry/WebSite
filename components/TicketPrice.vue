@@ -21,11 +21,11 @@
             :price-schedules="priceSchedules.data"
           />
 
-          <!-- 2023年末 - 2024年始の運航 -->
-          <SeiranNewYear2024Calendar class="mt-8" />
-
           <!-- 1月-4月の臨時運休 -->
           <SeiranTemporarySuspension class="mt-8" />
+
+          <!-- ゴールデンウィーク臨時便 -->
+          <SeiranGW2024Calendar class="mt-8" />
 
           <PriceClassCalendar
             v-if="

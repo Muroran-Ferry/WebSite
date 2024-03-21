@@ -65,34 +65,8 @@
               <li>9:00～17:00（日曜日）</li>
             </ul>
           </dd>
-          <dt id="new-year">年末年始の営業について</dt>
-          <dd>
-            <ul>
-              <li>2023年12月29日（金）： 9:00～17:00（短縮営業）</li>
-              <li>2023年12月30日（土）： 休館</li>
-              <li>2023年12月31日（日）： 休館</li>
-              <li>2024年1月1日（月）： 休館</li>
-              <li>2024年1月2日（火）： 休館</li>
-              <li>2024年1月3日（水）： 休館</li>
-              <li>2024年1月4日（木）： 9:00～20:00（通常営業）</li>
-            </ul>
-            <p class="text-sm">
-              <a
-                href="https://www.tsugarukaikyo.co.jp/topics_important/page/?id=1702603823qn0dR"
-              >
-                お問い合わせ先についてはこちら<ArrowTopRightOnSquareIcon
-                  class="-mt-1 inline size-4"
-                  aria-hidden="true"
-                /> </a
-              >をご確認ください。
-            </p>
-          </dd>
         </dl>
       </section>
     </div>
   </PageSection>
 </template>
-
-<script lang="ts" setup>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
-</script>
