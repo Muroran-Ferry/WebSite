@@ -87,8 +87,8 @@ devDependencies:
     specifier: 0.5.12
     version: 0.5.12(prettier@3.2.5)
   rollup-plugin-webpack-stats:
-    specifier: 0.2.4
-    version: 0.2.4(rollup@4.13.0)
+    specifier: 0.2.5
+    version: 0.2.5(rollup@4.13.0)
   scroll-hint:
     specifier: 1.2.5
     version: 1.2.5
@@ -7665,8 +7665,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /rollup-plugin-webpack-stats@0.2.4(rollup@4.13.0):
-    resolution: {integrity: sha512-bWGNGWpCFXB662mdIN2OHCrxXFBIgG+wS4UEksmORlT670F2ucLFYrrOVFTU6wjifGwPPRWwJMx5Z03rbDisWw==}
+  /rollup-plugin-webpack-stats@0.2.5(rollup@4.13.0):
+    resolution: {integrity: sha512-H/Qjg41rwga3SZxhIVghxCcouOWhBNhqNW7kk9z/Ie4yrjr/GBr1BnUMTa01FCXNqaiZqgbQODrm+14YGq7SKw==}
     engines: {node: '>=14'}
     peerDependencies:
       rollup: ^3.0.0 || ^4.0.0
