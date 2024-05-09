@@ -66,26 +66,26 @@
     <FacilityInformation
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <Information
+    <LazyAccessInformation
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <BoardingReservation
+    <LazyBoardingReservation
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <BoardingGuide
+    <LazyBoardingGuide
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <TicketPrice
+    <LazyTicketPrice
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
-    <TouristInformation
+    <LazyTouristInformation
       class="prose mb-6 prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
     />
 
-    <GooglePlacesPhotos />
+    <LazyGooglePlacesPhotos />
 
     <div class="bg-sky-500 pb-8">
-      <ContactInformation
+      <LazyContactInformation
         class="prose prose-a:text-blue-600 prose-a:underline prose-a:decoration-blue-600 hover:prose-a:text-blue-900 hover:prose-a:decoration-blue-900"
       />
     </div>

@@ -5,6 +5,7 @@
     "csstools.postcss",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
+    "nuxtr.nuxt-vscode-extentions",
     "nuxtr.nuxtr-vscode",
     "vitest.explorer",
     "vue.volar"
