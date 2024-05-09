@@ -1,9 +1,8 @@
 {
   "private": true,
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@9.1.0",
   "engines": {
-    "node": "~20.11",
-    "pnpm": ">=8.15.5",
+    "node": "~20.12",
     "preinstall": "npx only-allow pnpm"
   },
   "scripts": {
