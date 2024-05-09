@@ -52,7 +52,7 @@
     "husky": "9.0.11",
     "nuxt": "3.11.1",
     "nuxt-jsonld": "2.0.8",
-    "postcss": "8.4.37",
+    "postcss": "8.4.38",
     "postcss-html": "1.6.0",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.12",
