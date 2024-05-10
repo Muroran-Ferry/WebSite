@@ -31,7 +31,7 @@
   "devDependencies": {
     "@commitlint/cli": "19.2.1",
     "@commitlint/config-conventional": "19.1.0",
-    "@fancyapps/ui": "5.0.35",
+    "@fancyapps/ui": "5.0.36",
     "@googlemaps/js-api-loader": "1.16.6",
     "@headlessui/vue": "1.7.22",
     "@heroicons/vue": "2.1.3",
