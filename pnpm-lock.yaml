@@ -105,8 +105,8 @@ importers:
         specifier: 3.4.1
         version: 3.4.1
       volar-service-vetur:
-        specifier: 0.0.34
-        version: 0.0.34
+        specifier: 0.0.44
+        version: 0.0.44
       vue-gtag-next:
         specifier: 1.14.0
         version: 1.14.0(vue@3.4.21(typescript@4.9.5))
@@ -729,6 +729,9 @@ packages:
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
+
+  '@johnsoncodehk/vscode-html-languageservice@5.2.0-34a5462':
+    resolution: {integrity: sha512-etqLfpSJ5zaw76KUNF603be6d6QsiQPmaHr9FKEp4zhLZJzWCCMH6Icak7MtLUFLZLMpL761mZNImi/joBo1ZA==}
 
   '@jridgewell/gen-mapping@0.3.5':
     resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
@@ -4798,16 +4801,13 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  volar-service-vetur@0.0.34:
-    resolution: {integrity: sha512-vMkqb2/16wotYnDtISaSKfs4d73l0NQ08hv9tjViTkbv2+2iWj5Ghgui2H900NBAAD1k02+K7lZ8aojVnPiYNw==}
+  volar-service-vetur@0.0.44:
+    resolution: {integrity: sha512-qaHqu676/3ejCtlfzFtpNCRDIUBB3bZHZcMZIgq7VyCZ4MnqKdFeR5hTI7WRwCzMG7SZNCFQpPrF98WKbXUAQg==}
     peerDependencies:
-      '@volar/language-service': ~2.1.0
+      '@volar/language-service': ~2.2.0
     peerDependenciesMeta:
       '@volar/language-service':
         optional: true
-
-  vscode-html-languageservice@5.1.2:
-    resolution: {integrity: sha512-wkWfEx/IIR3s2P5yD4aTGHiOb8IAzFxgkSt1uSC3itJ4oDAm23yG7o0L29JljUdnXDDgLafPAvhv8A2I/8riHw==}
 
   vscode-jsonrpc@6.0.0:
     resolution: {integrity: sha512-wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==}
@@ -5538,6 +5538,13 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
+
+  '@johnsoncodehk/vscode-html-languageservice@5.2.0-34a5462':
+    dependencies:
+      '@vscode/l10n': 0.0.18
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-uri: 3.0.8
 
   '@jridgewell/gen-mapping@0.3.5':
     dependencies:
@@ -10355,19 +10362,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  volar-service-vetur@0.0.34:
+  volar-service-vetur@0.0.44:
     dependencies:
       vls: 0.8.5
-      vscode-html-languageservice: 5.1.2
+      vscode-html-languageservice: '@johnsoncodehk/vscode-html-languageservice@5.2.0-34a5462'
     transitivePeerDependencies:
       - supports-color
-
-  vscode-html-languageservice@5.1.2:
-    dependencies:
-      '@vscode/l10n': 0.0.18
-      vscode-languageserver-textdocument: 1.0.11
-      vscode-languageserver-types: 3.17.5
-      vscode-uri: 3.0.8
 
   vscode-jsonrpc@6.0.0: {}
 
