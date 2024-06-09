@@ -11,6 +11,9 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "mergeEditor.diffAlgorithm": "advanced",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
