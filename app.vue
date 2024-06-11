@@ -11,6 +11,15 @@
 <script setup lang="ts">
 import ScrollHint from 'scroll-hint';
 
+declare global {
+  interface Window {
+    fwSettings: {
+      widget_id: number;
+    };
+    FreshworksWidget: () => void;
+  }
+}
+
 const appConfig = useAppConfig();
 const config = useRuntimeConfig();
 
@@ -24,7 +33,6 @@ useHead({
 // console.log('buildInfo', useAppConfig().nuxt?.buildId, appManifest.timestamp);
 
 onMounted(() => {
-  // eslint-disable-next-line no-new
   new ScrollHint('[data-scroll-hint]', {
     suggestiveShadow: true,
     i18n: {
@@ -34,20 +42,17 @@ onMounted(() => {
 
   if (config.public.FRESHDESK_CONTACT_FORM_WIDGET_ID) {
     const widgetId = config.public.FRESHDESK_CONTACT_FORM_WIDGET_ID;
-    // @ts-ignore
     window.fwSettings = {
       widget_id: parseInt(widgetId),
     };
 
-    if (typeof (window as any).FreshworksWidget !== 'function') {
-      const n: {
-        q: any[];
-        (args: any): void;
-      } = function () {
+    if (typeof window.FreshworksWidget !== 'function') {
+      const n = function () {
+        // eslint-disable-next-line prefer-rest-params
         n.q.push(arguments);
       };
-      n.q = [];
-      (window as any).FreshworksWidget = n;
+      n.q = [] as IArguments[];
+      window.FreshworksWidget = n;
     }
 
     const externalScript = Object.assign(document.createElement('script'), {

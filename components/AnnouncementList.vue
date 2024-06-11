@@ -29,7 +29,6 @@ try {
   const { data } = await useLazyFetch(config.public.ANNOUNCEMENT_API_URL);
   announcements.value.data = announcementSchema.array().parse(data.value);
 } catch (error) {
-  // eslint-disable-next-line no-console
   console.error(error);
 } finally {
   announcements.value.loading = false;

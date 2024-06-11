@@ -115,7 +115,6 @@ const fetchStatus = async () => {
     status.value.data = seiranStatus.parse(data);
   } catch (error) {
     status.value.data = null;
-    // eslint-disable-next-line no-console
     console.error(error);
   } finally {
     status.value.loading = false;

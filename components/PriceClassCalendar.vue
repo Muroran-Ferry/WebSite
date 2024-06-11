@@ -77,7 +77,6 @@ try {
       return cdate(holiday.date);
     });
 } catch (error) {
-  // eslint-disable-next-line no-console
   console.error(error);
 }
 

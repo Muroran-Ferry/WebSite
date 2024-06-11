@@ -600,7 +600,6 @@ try {
   );
   priceSchedules.value.data = priceScheduleSchema.array().parse(data.value);
 } catch (error) {
-  // eslint-disable-next-line no-console
   console.error(error);
 } finally {
   priceSchedules.value.loading = false;
