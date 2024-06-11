@@ -27,6 +27,10 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@nuxtjs/web-vitals',
     'nuxt-jsonld',
+
+    // Nuxt Image
+    // https://image.nuxt.com/get-started/installation
+    '@nuxt/image',
   ],
   css: ['~/assets/css/main.css'],
   postcss: {

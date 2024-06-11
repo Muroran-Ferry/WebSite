@@ -20,7 +20,7 @@
         >
           <template #default="{ item }">
             <a class="relative" data-fancybox="gallery" :href="item.src">
-              <img
+              <NuxtImg
                 :src="item.src"
                 :alt="`${item.authorAttributions
                   .map((attr) => `${attr.displayName}さん`)

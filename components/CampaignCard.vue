@@ -2,7 +2,7 @@
   <div
     class="relative flex flex-col items-center gap-4 rounded-md p-4 shadow sm:flex-row"
   >
-    <img
+    <NuxtImg
       :src="imgSrc"
       :alt="title"
       class="max-h-24 object-cover sm:w-[12%] sm:max-w-[90px]"
