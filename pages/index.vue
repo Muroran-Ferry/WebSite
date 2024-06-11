@@ -93,11 +93,24 @@
 </template>
 
 <script lang="ts" setup>
+import type { WebSite, WithContext } from 'schema-dts';
+
 import { seiranStatus } from '~/schemas/seiran_status';
 
 import type { SeiranStatus } from '~/schemas/seiran_status';
 
 const config = useRuntimeConfig();
+
+useJsonld((): [WithContext<WebSite>] => {
+  return [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: '室蘭フェリーターミナル',
+      url: 'https://muroran-ferry.net/',
+    },
+  ];
+});
 
 // refs
 const status = ref({
