@@ -19,7 +19,15 @@ export default defineNuxtConfig({
       PLACE_ID: process.env.NUXT_PUBLIC_PLACE_ID,
     },
   },
-  modules: ['@nuxt/devtools', '@nuxtjs/web-vitals', 'nuxt-jsonld'],
+  modules: [
+    // Nuxt ESLint
+    // https://eslint.nuxt.com/packages/module
+    '@nuxt/eslint',
+
+    '@nuxt/devtools',
+    '@nuxtjs/web-vitals',
+    'nuxt-jsonld',
+  ],
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {
@@ -49,6 +57,8 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  eslint: {},
 
   webVitals: {
     // provider: '', // auto detectd

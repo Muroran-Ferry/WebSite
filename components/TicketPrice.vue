@@ -21,11 +21,8 @@
             :price-schedules="priceSchedules.data"
           />
 
-          <!-- 1月-4月の臨時運休 -->
-          <SeiranTemporarySuspension class="mt-8" />
-
-          <!-- ゴールデンウィーク臨時便 -->
-          <SeiranGW2024Calendar class="mt-8" />
+          <!-- 夏期臨時便 -->
+          <SeiranSummer2024Calendar class="mt-8" />
 
           <PriceClassCalendar
             v-if="
@@ -603,7 +600,6 @@ try {
   );
   priceSchedules.value.data = priceScheduleSchema.array().parse(data.value);
 } catch (error) {
-  // eslint-disable-next-line no-console
   console.error(error);
 } finally {
   priceSchedules.value.loading = false;
