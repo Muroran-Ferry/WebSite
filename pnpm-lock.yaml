@@ -90,8 +90,8 @@ importers:
         specifier: 0.6.2
         version: 0.6.2(prettier@3.3.1)
       rollup-plugin-webpack-stats:
-        specifier: 0.3.0
-        version: 0.3.0(rollup@4.18.0)
+        specifier: 0.4.1
+        version: 0.4.1(rollup@4.18.0)
       scroll-hint:
         specifier: 1.2.5
         version: 1.2.5
@@ -766,6 +766,7 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -773,6 +774,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.3':
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@humanwhocodes/retry@0.3.0':
     resolution: {integrity: sha512-d2CGZR2o7fS6sWB7DG/3a95bGKQyHMACZ5aW8qGkkqQpUoZV6C0X7Pc7l4ZNMZkfNBf4VWNe9E1jRsf0G146Ew==}
@@ -4467,8 +4469,8 @@ packages:
       rollup:
         optional: true
 
-  rollup-plugin-webpack-stats@0.3.0:
-    resolution: {integrity: sha512-BKVgc74NETfkhnBYNS5hmozkShs6zrGQXWXUf6fC4Gqt0ablWYhajRzbnGebjx5WTYMJg+0vMhHjn3/6gCTE9A==}
+  rollup-plugin-webpack-stats@0.4.1:
+    resolution: {integrity: sha512-Zi7t0G7FtA55LNcU9B3s2gBo3PODbdo+288Cw2/4sA8+o9H/ahhWZ25UxADeHwriAzW808iDpPbB81C5jGLIbg==}
     engines: {node: '>=14'}
     peerDependencies:
       rollup: ^3.0.0 || ^4.0.0
@@ -10509,7 +10511,7 @@ snapshots:
     optionalDependencies:
       rollup: 4.18.0
 
-  rollup-plugin-webpack-stats@0.3.0(rollup@4.18.0):
+  rollup-plugin-webpack-stats@0.4.1(rollup@4.18.0):
     dependencies:
       rollup: 4.18.0
 
