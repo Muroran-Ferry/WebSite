@@ -18,26 +18,27 @@
           :column-width="300"
           :gap="16"
         >
-          <template #default="{ item }">
+          <template #default="{ item }: { item: Photo }">
             <a class="relative" data-fancybox="gallery" :href="item.src">
               <NuxtImg
                 :src="item.src"
                 :alt="`${item.authorAttributions
                   .map((attr) => `${attr.displayName}さん`)
                   .join('，')}が撮影した室蘭フェリーターミナル`"
+                loading="lazy"
               />
               <div
                 class="photo-by absolute right-1 top-1 bg-white/50 p-1 text-xs"
               >
                 Photo by
                 <template v-for="(attr, i) in item.authorAttributions" :key="i">
-                  <nuxt-link
+                  <NuxtLink
                     v-if="attr.uri"
                     class="text-blue-600 underline decoration-blue-600"
                     :to="attr.uri"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >{{ attr.displayName }}</nuxt-link
+                    >{{ attr.displayName }}</NuxtLink
                   >
                   <span v-else>{{ attr.displayName }}</span>
                 </template>
@@ -62,17 +63,17 @@
 <script lang="ts" setup>
 import { Loader } from '@googlemaps/js-api-loader';
 
+type Photo = {
+  authorAttributions: google.maps.places.AuthorAttribution[];
+  src: string;
+  heightPx: number;
+  widthPx: number;
+};
+
 const config = useRuntimeConfig();
 
 // ref
-const photos = ref(
-  [] as {
-    authorAttributions: google.maps.places.AuthorAttribution[];
-    src: string;
-    heightPx: number;
-    widthPx: number;
-  }[]
-);
+const photos = ref([] as Photo[]);
 
 onMounted(() => {
   // Google Maps API (Places API)

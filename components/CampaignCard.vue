@@ -3,9 +3,11 @@
     class="relative flex flex-col items-center gap-4 rounded-md p-4 shadow sm:flex-row"
   >
     <NuxtImg
+      provider="cloudimage"
       :src="imgSrc"
       :alt="title"
-      class="max-h-24 object-cover sm:w-[12%] sm:max-w-[90px]"
+      class="h-24 object-contain sm:w-[12%] sm:max-w-[90px]"
+      loading="lazy"
     />
     <div>
       <header>

@@ -64,6 +64,16 @@ export default defineNuxtConfig({
 
   eslint: {},
 
+  image: {
+    cloudimage: {
+      token: process.env.NUXT_PUBLIC_CLOUDIMAGE_TOKEN,
+      baseURL:
+        process.env.NODE_ENV?.toLowerCase() === 'production'
+          ? process.env.CF_PAGES_URL
+          : process.env.NUXT_PUBLIC_BASE_URL,
+    },
+  },
+
   webVitals: {
     // provider: '', // auto detectd
     debug: false,
