@@ -57,7 +57,7 @@
     "postcss-html": "1.7.0",
     "prettier": "3.3.2",
     "prettier-plugin-tailwindcss": "0.6.4",
-    "rollup-plugin-webpack-stats": "0.4.1",
+    "rollup-plugin-webpack-stats": "1.0.0",
     "scroll-hint": "1.2.5",
     "stylelint": "16.6.1",
     "stylelint-config-standard": "36.0.0",

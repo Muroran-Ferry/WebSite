@@ -93,8 +93,8 @@ importers:
         specifier: 0.6.4
         version: 0.6.4(prettier@3.3.2)
       rollup-plugin-webpack-stats:
-        specifier: 0.4.1
-        version: 0.4.1(rollup@4.18.0)
+        specifier: 1.0.0
+        version: 1.0.0(rollup@4.18.0)
       scroll-hint:
         specifier: 1.2.5
         version: 1.2.5
@@ -4568,9 +4568,9 @@ packages:
       rollup:
         optional: true
 
-  rollup-plugin-webpack-stats@0.4.1:
-    resolution: {integrity: sha512-Zi7t0G7FtA55LNcU9B3s2gBo3PODbdo+288Cw2/4sA8+o9H/ahhWZ25UxADeHwriAzW808iDpPbB81C5jGLIbg==}
-    engines: {node: '>=14'}
+  rollup-plugin-webpack-stats@1.0.0:
+    resolution: {integrity: sha512-aXq0kL5K1awoF9qNafD6xqDHgCHcYbBFY3W9nMYLDDsC/fyidEAzdxDvitfzb7IffhI2hrDCILpP2GKVnfkhtA==}
+    engines: {node: '>=18'}
     peerDependencies:
       rollup: ^3.0.0 || ^4.0.0
 
@@ -10842,7 +10842,7 @@ snapshots:
     optionalDependencies:
       rollup: 4.18.0
 
-  rollup-plugin-webpack-stats@0.4.1(rollup@4.18.0):
+  rollup-plugin-webpack-stats@1.0.0(rollup@4.18.0):
     dependencies:
       rollup: 4.18.0
 
