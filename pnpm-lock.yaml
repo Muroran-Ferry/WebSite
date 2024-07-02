@@ -108,8 +108,8 @@ importers:
         specifier: 3.4.4
         version: 3.4.4
       volar-service-vetur:
-        specifier: 0.0.51
-        version: 0.0.51
+        specifier: 0.0.54
+        version: 0.0.54
       vue-gtag-next:
         specifier: 1.14.0
         version: 1.14.0(vue@3.4.27(typescript@4.9.5))
@@ -5342,16 +5342,16 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  volar-service-vetur@0.0.51:
-    resolution: {integrity: sha512-ioLlE9sa7dtnDM9n+GlL9IAv1Yjavxf55iEyyz1QotFe6r3owPkBb95p/QhWQ3p8DhdbDG6g1EuV4jygodOjJw==}
+  volar-service-vetur@0.0.54:
+    resolution: {integrity: sha512-KjoLXhndnYazKI/exl/6lVG/r/s4F79zRXysvcOMfZgMZozC9gJsBt3pNMiuVW9l7NWd8q6t09sDb3fHhkzziw==}
     peerDependencies:
-      '@volar/language-service': ~2.3.0
+      '@volar/language-service': ~2.3.1
     peerDependenciesMeta:
       '@volar/language-service':
         optional: true
 
-  vscode-html-languageservice@5.2.0:
-    resolution: {integrity: sha512-cdNMhyw57/SQzgUUGSIMQ66jikqEN6nBNyhx5YuOyj9310+eY9zw8Q0cXpiKzDX8aHYFewQEXRnigl06j/TVwQ==}
+  vscode-html-languageservice@5.3.0:
+    resolution: {integrity: sha512-C4Z3KsP5Ih+fjHpiBc5jxmvCl+4iEwvXegIrzu2F5pktbWvQaBT3YkVPk8N+QlSSMk8oCG6PKtZ/Sq2YHb5e8g==}
 
   vscode-jsonrpc@6.0.0:
     resolution: {integrity: sha512-wnJA4BnEjOSyFMvjZdpiOwhSq9uDoK8e/kpRJDTaMYzwlkrhG1fwDIZI94CLsLzlCK5cIbMMtFlJlfR57Lavmg==}
@@ -11847,15 +11847,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  volar-service-vetur@0.0.51:
+  volar-service-vetur@0.0.54:
     dependencies:
       vls: 0.8.5
-      vscode-html-languageservice: 5.2.0
+      vscode-html-languageservice: 5.3.0
       vscode-uri: 3.0.8
     transitivePeerDependencies:
       - supports-color
 
-  vscode-html-languageservice@5.2.0:
+  vscode-html-languageservice@5.3.0:
     dependencies:
       '@vscode/l10n': 0.0.18
       vscode-languageserver-textdocument: 1.0.11
