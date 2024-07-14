@@ -1,4 +1,4 @@
-import { webpackStats } from 'rollup-plugin-webpack-stats';
+import webpackStatsPlugin from 'rollup-plugin-webpack-stats';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -81,7 +81,7 @@ export default defineNuxtConfig({
     plugins: [
       // Output webpack-stats.json file
       // https://relative-ci.com/documentation/guides/bundle-stats/vite
-      webpackStats(),
+      webpackStatsPlugin(),
     ],
   },
 });
