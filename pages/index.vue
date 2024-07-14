@@ -95,7 +95,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { WebSite, WithContext } from 'schema-dts';
+import type { WebSite, Organization, WithContext } from 'schema-dts';
 
 import { seiranStatus } from '~/schemas/seiran_status';
 
@@ -103,15 +103,40 @@ import type { SeiranStatus } from '~/schemas/seiran_status';
 
 const config = useRuntimeConfig();
 
-useJsonld((): [WithContext<WebSite>] => {
+useJsonld((): [WithContext<WebSite>, WithContext<Organization>] => {
   return [
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: '室蘭フェリーターミナル',
       url: 'https://muroran-ferry.net/',
+      alternateName: [
+        '室蘭フェリーターミナル',
+        '室蘭港フェリーターミナル',
+        'Muroran Ferry Terminal',
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      name: '室蘭フェリーターミナル',
+      url: 'https://muroran-ferry.net/',
+      description: config.public.SITE_DESCRIPTION,
     },
   ];
+});
+
+useSeoMeta({
+  description: config.public.SITE_DESCRIPTION,
+  ogTitle: '室蘭フェリーターミナル',
+  ogSiteName: '室蘭フェリーターミナル',
+  ogType: 'website',
+  ogImage: '/ferryterminal.jpg',
+  ogDescription: config.public.SITE_DESCRIPTION,
+  twitterCard: 'summary',
+  twitterTitle: '室蘭フェリーターミナル',
+  twitterImage: '/ferryterminal.jpg',
+  twitterDescription: config.public.SITE_DESCRIPTION,
 });
 
 // refs

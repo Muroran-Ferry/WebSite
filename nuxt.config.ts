@@ -1,4 +1,4 @@
-import { webpackStats } from 'rollup-plugin-webpack-stats';
+import webpackStatsPlugin from 'rollup-plugin-webpack-stats';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -6,6 +6,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      SITE_DESCRIPTION: process.env.NUXT_PUBLIC_SITE_DESCRIPTION,
       GTAG_ID: process.env.NUXT_PUBLIC_GTAG_ID,
       ADSENSE_CLIENT_ID: process.env.NUXT_PUBLIC_ADSENSE_CLIENT_ID,
       ANNOUNCEMENT_API_URL: process.env.NUXT_PUBLIC_ANNOUNCEMENT_API_URL,
@@ -19,6 +20,7 @@ export default defineNuxtConfig({
       PLACE_ID: process.env.NUXT_PUBLIC_PLACE_ID,
     },
   },
+
   modules: [
     // Nuxt ESLint
     // https://eslint.nuxt.com/packages/module
@@ -32,7 +34,9 @@ export default defineNuxtConfig({
     // https://image.nuxt.com/get-started/installation
     '@nuxt/image',
   ],
+
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       'postcss-import': {},
@@ -81,7 +85,9 @@ export default defineNuxtConfig({
     plugins: [
       // Output webpack-stats.json file
       // https://relative-ci.com/documentation/guides/bundle-stats/vite
-      webpackStats(),
+      webpackStatsPlugin(),
     ],
   },
+
+  compatibilityDate: '2024-07-15',
 });
