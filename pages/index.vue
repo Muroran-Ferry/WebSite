@@ -121,18 +121,22 @@ useJsonld((): [WithContext<WebSite>, WithContext<Organization>] => {
       '@type': 'Organization',
       name: '室蘭フェリーターミナル',
       url: 'https://muroran-ferry.net/',
+      description: config.public.SITE_DESCRIPTION,
     },
   ];
 });
 
 useSeoMeta({
+  description: config.public.SITE_DESCRIPTION,
   ogTitle: '室蘭フェリーターミナル',
   ogSiteName: '室蘭フェリーターミナル',
   ogType: 'website',
   ogImage: '/ferryterminal.jpg',
+  ogDescription: config.public.SITE_DESCRIPTION,
   twitterCard: 'summary',
   twitterTitle: '室蘭フェリーターミナル',
   twitterImage: '/ferryterminal.jpg',
+  twitterDescription: config.public.SITE_DESCRIPTION,
 });
 
 // refs

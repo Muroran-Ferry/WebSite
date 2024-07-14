@@ -6,6 +6,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      SITE_DESCRIPTION: process.env.NUXT_PUBLIC_SITE_DESCRIPTION,
       GTAG_ID: process.env.NUXT_PUBLIC_GTAG_ID,
       ADSENSE_CLIENT_ID: process.env.NUXT_PUBLIC_ADSENSE_CLIENT_ID,
       ANNOUNCEMENT_API_URL: process.env.NUXT_PUBLIC_ANNOUNCEMENT_API_URL,
