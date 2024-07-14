@@ -19,6 +19,7 @@ export default defineNuxtConfig({
       PLACE_ID: process.env.NUXT_PUBLIC_PLACE_ID,
     },
   },
+
   modules: [
     // Nuxt ESLint
     // https://eslint.nuxt.com/packages/module
@@ -32,7 +33,9 @@ export default defineNuxtConfig({
     // https://image.nuxt.com/get-started/installation
     '@nuxt/image',
   ],
+
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       'postcss-import': {},
@@ -84,4 +87,6 @@ export default defineNuxtConfig({
       webpackStatsPlugin(),
     ],
   },
+
+  compatibilityDate: '2024-07-15',
 });

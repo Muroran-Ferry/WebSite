@@ -125,6 +125,16 @@ useJsonld((): [WithContext<WebSite>, WithContext<Organization>] => {
   ];
 });
 
+useSeoMeta({
+  ogTitle: '室蘭フェリーターミナル',
+  ogSiteName: '室蘭フェリーターミナル',
+  ogType: 'website',
+  ogImage: '/ferryterminal.jpg',
+  twitterCard: 'summary',
+  twitterTitle: '室蘭フェリーターミナル',
+  twitterImage: '/ferryterminal.jpg',
+});
+
 // refs
 const status = ref({
   loading: false,
