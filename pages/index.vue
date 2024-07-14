@@ -95,7 +95,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { WebSite, WithContext } from 'schema-dts';
+import type { WebSite, Organization, WithContext } from 'schema-dts';
 
 import { seiranStatus } from '~/schemas/seiran_status';
 
@@ -103,11 +103,22 @@ import type { SeiranStatus } from '~/schemas/seiran_status';
 
 const config = useRuntimeConfig();
 
-useJsonld((): [WithContext<WebSite>] => {
+useJsonld((): [WithContext<WebSite>, WithContext<Organization>] => {
   return [
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
+      name: '室蘭フェリーターミナル',
+      url: 'https://muroran-ferry.net/',
+      alternateName: [
+        '室蘭フェリーターミナル',
+        '室蘭港フェリーターミナル',
+        'Muroran Ferry Terminal',
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
       name: '室蘭フェリーターミナル',
       url: 'https://muroran-ferry.net/',
     },
