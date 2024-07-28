@@ -39,7 +39,7 @@
     "@nuxt/image": "1.7.0",
     "@nuxtjs/web-vitals": "0.2.7",
     "@tailwindcss/typography": "0.5.13",
-    "@types/google.maps": "3.55.11",
+    "@types/google.maps": "3.55.12",
     "@types/node": "20.14.11",
     "@yeger/vue-masonry-wall": "5.0.12",
     "autoprefixer": "10.4.19",
