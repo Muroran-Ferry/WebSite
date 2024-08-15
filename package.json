@@ -15,7 +15,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "prepare": "husky install",
+    "prepare": "husky",
     "postinstall": "nuxt prepare"
   },
   "lint-staged": {
