@@ -108,8 +108,8 @@ importers:
         specifier: 3.4.7
         version: 3.4.7
       volar-service-vetur:
-        specifier: 0.0.54
-        version: 0.0.54
+        specifier: 0.0.61
+        version: 0.0.61
       vue-gtag-next:
         specifier: 1.14.0
         version: 1.14.0(vue@3.4.38(typescript@4.9.5))
@@ -4947,10 +4947,10 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  volar-service-vetur@0.0.54:
-    resolution: {integrity: sha512-KjoLXhndnYazKI/exl/6lVG/r/s4F79zRXysvcOMfZgMZozC9gJsBt3pNMiuVW9l7NWd8q6t09sDb3fHhkzziw==}
+  volar-service-vetur@0.0.61:
+    resolution: {integrity: sha512-fThqfC/oFAQvKb0a5+82xQ6UxGLAjDz32saq+QLoX+GdOxn9LcbntGzZ+HGdh5NwAj5ZR/U7SnXDTII+UMtjmg==}
     peerDependencies:
-      '@volar/language-service': ~2.3.1
+      '@volar/language-service': ~2.4.0
     peerDependenciesMeta:
       '@volar/language-service':
         optional: true
@@ -10696,7 +10696,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  volar-service-vetur@0.0.54:
+  volar-service-vetur@0.0.61:
     dependencies:
       vls: 0.8.5
       vscode-html-languageservice: 5.3.0
