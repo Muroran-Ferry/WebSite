@@ -37,7 +37,7 @@ importers:
         version: 0.2.7(magicast@0.3.4)(rollup@4.20.0)
       '@tailwindcss/typography':
         specifier: 0.5.14
-        version: 0.5.14(tailwindcss@3.4.7)
+        version: 0.5.14(tailwindcss@3.4.10)
       '@types/google.maps':
         specifier: 3.55.12
         version: 3.55.12
@@ -67,7 +67,7 @@ importers:
         version: 5.2.1(@types/eslint@9.6.0)(eslint-config-prettier@9.1.0(eslint@9.9.0(jiti@1.21.6)))(eslint@9.9.0(jiti@1.21.6))(prettier@3.3.3)
       eslint-plugin-tailwindcss:
         specifier: 3.17.4
-        version: 3.17.4(tailwindcss@3.4.7)
+        version: 3.17.4(tailwindcss@3.4.10)
       eslint-plugin-vue:
         specifier: 9.27.0
         version: 9.27.0(eslint@9.9.0(jiti@1.21.6))
@@ -105,8 +105,8 @@ importers:
         specifier: 36.0.1
         version: 36.0.1(stylelint@16.8.2(typescript@4.9.5))
       tailwindcss:
-        specifier: 3.4.7
-        version: 3.4.7
+        specifier: 3.4.10
+        version: 3.4.10
       volar-service-vetur:
         specifier: 0.0.61
         version: 0.0.61
@@ -4572,8 +4572,8 @@ packages:
     resolution: {integrity: sha512-w2sfv80nrAh2VCbqR5AK27wswXhqcck2AhfnNW76beQXskGZ1V12GwS//yYVa3d3fcvAip2OUnbDAjW2k3v9fA==}
     engines: {node: '>=10.0.0'}
 
-  tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  tailwindcss@3.4.10:
+    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6456,13 +6456,13 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tailwindcss/typography@0.5.14(tailwindcss@3.4.7)':
+  '@tailwindcss/typography@0.5.14(tailwindcss@3.4.10)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.10
 
   '@tanstack/virtual-core@3.9.0': {}
 
@@ -7828,11 +7828,11 @@ snapshots:
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
 
-  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.7):
+  eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.10):
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.41
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.10
 
   eslint-plugin-unicorn@55.0.0(eslint@9.9.0(jiti@1.21.6)):
     dependencies:
@@ -10243,7 +10243,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
 
-  tailwindcss@3.4.7:
+  tailwindcss@3.4.10:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
