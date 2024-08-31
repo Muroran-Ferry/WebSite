@@ -14,7 +14,16 @@
           <dd>
             <ul>
               <li>乗船手続きカウンター</li>
-              <li>津軽海峡フェリー スマートチェックイン</li>
+              <li>
+                津軽海峡フェリー スマートチェックイン
+                <ul
+                  class="list-none [&>li]:-indent-6 [&>li]:text-sm [&>li]:font-medium [&>li]:text-red-500 [&>li]:before:mr-1.5 [&>li]:before:content-['※']"
+                >
+                  <li>
+                    ドライブスルー発券には対応しておりません。ターミナル内の自動発券機をご利用ください。
+                  </li>
+                </ul>
+              </li>
               <li>飲料自販機</li>
               <li>コインロッカー</li>
               <li>トイレ</li>

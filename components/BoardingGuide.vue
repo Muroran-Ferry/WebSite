@@ -40,6 +40,10 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/outline';
                 <p>出港時刻の約90分前から受付開始します。</p>
                 <p>
                   事前にお支払いがお済みのお客様は、スマートチェックインで簡単に乗船手続きが完了いたします。<br />
+                  なお、当フェリーターミナルは<span
+                    class="font-semibold text-red-500"
+                    >ドライブスルー発券には対応していません</span
+                  >のでご注意ください。<br />
                   スマートチェックインの詳細は
                   <a
                     href="https://www.tsugarukaikyo.co.jp/reservation/smart_checkin/"
