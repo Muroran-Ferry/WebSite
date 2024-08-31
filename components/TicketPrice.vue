@@ -21,8 +21,8 @@
             :price-schedules="priceSchedules.data"
           />
 
-          <!-- 夏期臨時便 -->
-          <SeiranSummer2024Calendar class="mt-8" />
+          <!-- 臨時運休 -->
+          <SeiranTemporarySuspension class="mt-8" />
 
           <PriceClassCalendar
             v-if="

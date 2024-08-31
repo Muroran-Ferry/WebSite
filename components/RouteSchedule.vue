@@ -71,7 +71,7 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   日曜日
                   <div class="text-xs">
-                    ※2024年8月11日（日）, 2024年8月18日（日）は臨時運航<br />
+                    ※2024年9月29日（日）〜2024年10月11日（金）は運休<br />
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   月曜日
                   <div class="text-xs">
-                    ※2024年8月12日（月）, 2024年8月19日（月）は臨時運航<br />
+                    ※2024年9月30日（月）〜2024年10月11日（金）は運休<br />
                   </div>
                 </div>
               </div>
