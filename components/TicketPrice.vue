@@ -23,6 +23,7 @@
 
           <!-- 臨時運休 -->
           <SeiranNewYear2025Calendar class="mt-8" />
+          <SeiranTemporarySuspension class="mt-8" />
 
           <PriceClassCalendar
             v-if="
