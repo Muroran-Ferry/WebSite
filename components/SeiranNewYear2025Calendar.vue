@@ -1,12 +1,12 @@
 <template>
-  <div class="not-prose px-4 sm:px-6 lg:px-8">
+  <div id="seiran-new-year" class="not-prose px-4 sm:px-6 lg:px-8">
     <div class="sm:flex sm:items-center">
       <div class="sm:flex-auto">
         <h5 class="text-base font-semibold leading-6 text-gray-900">
           年末年始の運航について
         </h5>
         <p class="mt-2 text-sm text-gray-700">
-          2023年12月29日（金）～2024年1月5日（金）の運航については、次の通りとなります。
+          2024年12月29日（日）～2025年1月6日（火）の運航については、次の通りとなります。
         </p>
       </div>
     </div>
@@ -35,25 +35,43 @@
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  12/29（金）
+                  12/28（土）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  12/30（土）～1/3（水）
+                  12/29（日）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  1/4（木）
+                  12/30（月）～1/3（金）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  1/4（土）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  1/5（日）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap py-3.5 pl-3 pr-4 text-center text-sm font-semibold text-gray-900 sm:pr-0"
                 >
-                  1/5（金）
+                  1/6（月）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap py-3.5 pl-3 pr-4 text-center text-sm font-semibold text-gray-900 sm:pr-0"
+                >
+                  1/7（火）
                 </th>
               </tr>
             </thead>
@@ -78,7 +96,22 @@
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
                 >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
                   休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
                 </td>
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
@@ -106,7 +139,22 @@
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
                 >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
                   休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
                 </td>
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
