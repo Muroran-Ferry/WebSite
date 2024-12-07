@@ -3,10 +3,10 @@
     <div class="sm:flex sm:items-center">
       <div class="sm:flex-auto">
         <h5 class="text-base font-semibold leading-6 text-gray-900">
-          2024年9月・10月函館-青森代船運航に伴う運休について
+          船舶法定検査・配船繰りに伴う運休のご案内 (2025年1月〜3月)
         </h5>
         <p class="mt-2 text-sm text-gray-700">
-          2024年9月・10月の運航については、次の通り一部運休となります。
+          2025年1月〜3月の運航については、次の通り一部運休となります。
         </p>
       </div>
     </div>
@@ -35,19 +35,55 @@
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  9/29（日）
+                  1/21（火）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
                 >
-                  9/30（月）～10/11（金）
+                  1/22（水）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  1/23（木）～2/3（月）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  2/4（火）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  2/5（水）～2/28（金）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  3/1（土）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  3/2（日）
+                </th>
+                <th
+                  scope="col"
+                  class="whitespace-nowrap px-3 py-3.5 text-center text-sm font-semibold text-gray-900"
+                >
+                  3/3（月）～3/6（木）
                 </th>
                 <th
                   scope="col"
                   class="whitespace-nowrap py-4 pl-3 pr-4 text-center text-sm font-semibold text-gray-900"
                 >
-                  10/12（土）
+                  3/7（金）
                 </th>
               </tr>
             </thead>
@@ -63,6 +99,36 @@
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-900"
                 >
                   09:00
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  通常ダイヤ
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
                 </td>
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
@@ -95,6 +161,36 @@
                 <td
                   class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
                 >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  休
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  通常ダイヤ
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
+                  ○
+                </td>
+                <td
+                  class="whitespace-nowrap px-3 py-4 text-center text-sm text-gray-500"
+                >
                   休
                 </td>
                 <td
@@ -112,6 +208,11 @@
           </table>
         </div>
       </div>
+    </div>
+    <div>
+      <p class="mt-2 text-sm text-gray-700">
+        ※3/7（金）〜4/20（日）まで就航船舶を変更して運航します（就航船舶：ブルールミナス）。
+      </p>
     </div>
   </div>
 </template>

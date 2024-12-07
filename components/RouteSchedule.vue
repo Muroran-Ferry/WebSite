@@ -38,6 +38,9 @@
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   2 (ブルーマーメイド)
+                  <div class="text-xs">
+                    ※2025年3月7日（金）〜2025年4月20日（日）はブルールミナス
+                  </div>
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -71,7 +74,9 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   日曜日
                   <div class="text-xs">
-                    ※2024年9月29日（日）〜2024年10月11日（金）は運休<br />
+                    ※2024年12月29日（日）〜2025年1月3日（金）は運休<br />
+                    ※2025年1月22日（水）〜2025年2月3日（月）は運休<br />
+                    ※2025年3月2日（日）〜2025年3月6日（木）は運休<br />
                   </div>
                 </div>
               </div>
@@ -91,6 +96,9 @@
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   1 (ブルーマーメイド)
+                  <div class="text-xs">
+                    ※2025年3月7日（金）〜2025年4月20日（日）はブルールミナス
+                  </div>
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -124,7 +132,9 @@
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   月曜日
                   <div class="text-xs">
-                    ※2024年9月30日（月）〜2024年10月11日（金）は運休<br />
+                    ※2024年12月30日（月）〜2025年1月4日（土）は運休<br />
+                    ※2025年1月23日（木）〜2025年2月3日（月）は運休<br />
+                    ※2025年3月3日（月）〜2025年3月6日（木）は運休<br />
                   </div>
                 </div>
               </div>
