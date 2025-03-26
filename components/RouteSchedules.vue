@@ -5,7 +5,7 @@
     <div class="grid gap-4">
       <RouteSchedule
         header-class="bg-rose-500"
-        routeName="青森発着（青蘭航路）"
+        route-name="青森発着（青蘭航路）"
       >
         <template #header-description>
           <div
@@ -36,9 +36,10 @@
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   2 (ブルーマーメイド)
-                  <div class="text-xs">
-                    ※2025年3月7日（金）〜2025年4月20日（日）はブルールミナス
-                  </div>
+                  <ShipChangeNotice
+                    period="2025年3月7日（金）〜2025年4月20日（日）"
+                    ship-name="ブルールミナス"
+                  />
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -90,9 +91,10 @@
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   1 (ブルーマーメイド)
-                  <div class="text-xs">
-                    ※2025年3月7日（金）〜2025年4月20日（日）はブルールミナス
-                  </div>
+                  <ShipChangeNotice
+                    period="2025年3月7日（金）〜2025年4月20日（日）"
+                    ship-name="ブルールミナス"
+                  />
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -145,9 +147,10 @@
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   2 (ブルーマーメイド)
-                  <div class="text-xs">
-                    ※2025年3月7日（金）〜2025年4月20日（日）はブルールミナス
-                  </div>
+                  <ShipChangeNotice
+                    period="2025年3月7日（金）〜2025年4月20日（日）"
+                    ship-name="ブルールミナス"
+                  />
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -199,9 +202,10 @@
                 </div>
                 <div class="col-span-2 text-sm text-gray-700 sm:text-base">
                   1 (ブルーマーメイド)
-                  <div class="text-xs">
-                    ※2025年3月7日（金）〜2025年4月20日（日）はブルールミナス
-                  </div>
+                  <ShipChangeNotice
+                    period="2025年3月7日（金）〜2025年4月20日（日）"
+                    ship-name="ブルールミナス"
+                  />
                 </div>
               </div>
               <div class="grid grid-cols-3 sm:flex sm:flex-col sm:text-center">
@@ -259,7 +263,7 @@
 
       <RouteSchedule
         header-class="bg-lime-500"
-        routeName="宮古・八戸発着（宮蘭航路）"
+        route-name="宮古・八戸発着（宮蘭航路）"
       >
         <template #note> 運航休止中 </template>
       </RouteSchedule>
