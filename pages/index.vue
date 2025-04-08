@@ -83,7 +83,7 @@
     />
 
     <ClientOnly>
-      <LazyGooglePlacesPhotos />
+      <LazyGooglePlacesPhotos v-if="!bot" />
     </ClientOnly>
 
     <div class="bg-sky-500 pb-8">
@@ -96,9 +96,8 @@
 
 <script lang="ts" setup>
 import type { WebSite, Organization, WithContext } from 'schema-dts';
-
+import { isbot } from 'isbot';
 import { seiranStatus } from '~/schemas/seiran_status';
-
 import type { SeiranStatus } from '~/schemas/seiran_status';
 
 const config = useRuntimeConfig();
@@ -147,6 +146,8 @@ const status = ref({
 
 const timer = ref<number | null>(null);
 
+const bot = ref(true);
+
 // methods
 const fetchStatus = async () => {
   try {
@@ -163,6 +164,8 @@ const fetchStatus = async () => {
 
 // lifecycle
 onMounted(async () => {
+  bot.value = isbot(window.navigator.userAgent);
+
   await fetchStatus();
 
   if (!timer.value) {
