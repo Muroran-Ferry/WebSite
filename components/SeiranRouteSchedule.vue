@@ -12,82 +12,31 @@
     <section>
       <h5 class="text-lg font-semibold tracking-widest text-sky-500">
         室蘭 → 青森
-        <span class="text-sm tracking-normal">(2025年3月31日まで)</span>
       </h5>
 
       <div class="max-w-4xl gap-y-2 sm:flex sm:justify-between sm:gap-x-2">
         <ScheduleItem label="便名 (船舶)" :centered="false">
-          2 (ブルーマーメイド)
-          <ShipChangeNotice
-            period="2025年3月7日（金）〜2025年4月20日（日）"
-            ship-name="ブルールミナス"
-          />
-        </ScheduleItem>
-        <ScheduleItem label="室蘭発" value="20:00" :centered="true" />
-        <ScheduleItem label="青森着" value="翌3:00" :centered="true" />
-        <ScheduleItem label="所要時間" value="7時間" :centered="true" />
-        <ScheduleItem label="運休日" value="日曜日" :centered="true" />
-      </div>
-    </section>
-
-    <section>
-      <h5 class="text-lg font-semibold tracking-widest text-sky-500">
-        青森 → 室蘭
-        <span class="text-sm tracking-normal">(2025年3月31日まで)</span>
-      </h5>
-      <div class="max-w-4xl gap-y-2 sm:flex sm:justify-between sm:gap-x-2">
-        <ScheduleItem label="便名 (船舶)" :centered="false">
-          1 (ブルーマーメイド)
-          <ShipChangeNotice
-            period="2025年3月7日（金）〜2025年4月20日（日）"
-            ship-name="ブルールミナス"
-          />
-        </ScheduleItem>
-        <ScheduleItem label="青森発" value="9:00" :centered="true" />
-        <ScheduleItem label="室蘭着" value="15:45" :centered="true" />
-        <ScheduleItem label="所要時間" value="6時間45分" :centered="true" />
-        <ScheduleItem label="運休日" value="月曜日" :centered="true" />
-      </div>
-    </section>
-
-    <section>
-      <h5 class="text-lg font-semibold tracking-widest text-sky-500">
-        室蘭 → 青森
-        <span class="text-sm tracking-normal">(2025年4月1日から)</span>
-      </h5>
-
-      <div class="max-w-4xl gap-y-2 sm:flex sm:justify-between sm:gap-x-2">
-        <ScheduleItem label="便名 (船舶)" :centered="false">
-          2 (ブルーマーメイド)
-          <ShipChangeNotice
-            period="2025年3月7日（金）〜2025年4月20日（日）"
-            ship-name="ブルールミナス"
-          />
+          2 (ブルーグレイス)
         </ScheduleItem>
         <ScheduleItem label="室蘭発" value="20:50" :centered="true" />
         <ScheduleItem label="青森着" value="翌3:50" :centered="true" />
         <ScheduleItem label="所要時間" value="7時間" :centered="true" />
-        <ScheduleItem label="運休日" value="日曜日" :centered="true" />
+        <ScheduleItem label="運休日" value="なし" :centered="true" />
       </div>
     </section>
 
     <section>
       <h5 class="text-lg font-semibold tracking-widest text-sky-500">
         青森 → 室蘭
-        <span class="text-sm tracking-normal">(2025年4月1日から)</span>
       </h5>
       <div class="max-w-4xl gap-y-2 sm:flex sm:justify-between sm:gap-x-2">
         <ScheduleItem label="便名 (船舶)" :centered="false">
-          1 (ブルーマーメイド)
-          <ShipChangeNotice
-            period="2025年3月7日（金）〜2025年4月20日（日）"
-            ship-name="ブルールミナス"
-          />
+          1 (ブルーグレイス)
         </ScheduleItem>
         <ScheduleItem label="青森発" value="10:40" :centered="true" />
         <ScheduleItem label="室蘭着" value="17:25" :centered="true" />
         <ScheduleItem label="所要時間" value="6時間45分" :centered="true" />
-        <ScheduleItem label="運休日" value="月曜日" :centered="true" />
+        <ScheduleItem label="運休日" value="なし" :centered="true" />
       </div>
     </section>
 

@@ -20,6 +20,14 @@
 // refs
 const campaigns = ref([
   {
+    imgSrc: '/blue_grace_campaign.png',
+    title: '新造船ブルーグレイス就航記念割引',
+    description:
+      '室蘭～青森航路に新造船ブルーグレイスが就航！2025年7月14日～12月31日の期間限定で、普通車16,000円、軽自動車14,000円の特別価格でご利用いただけます。同乗者は大人2,500円、小児1,250円の追加料金でご乗船可能です。',
+    meta: ['津軽海峡フェリー', '期間限定'],
+    href: 'https://www.tsugarukaikyo.co.jp/guidance/blue_grace-syuukoukinenwaribiki-20250606/',
+  },
+  {
     imgSrc: '/tsugarukaikyo_umiwari_drive_plus_2023.jpg',
     title: 'おトクに乗船！5日前までのWEB予約限定プラン「海割ドライブ プラス」',
     description:
