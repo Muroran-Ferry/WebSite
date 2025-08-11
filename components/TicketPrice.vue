@@ -57,7 +57,7 @@
                     旅客運賃割引・割増後の端数処理については、10円未満の端数切り上げとなります。
                   </li>
                   <li>
-                    スイート・コンフォートの定員未満のご利用時は、貸切料金が必要となります。
+                    スイート・ファーストの定員未満のご利用時は、貸切料金が必要となります。
                   </li>
                 </ul>
               </div>
@@ -89,18 +89,26 @@
                       <td class="bg-lime-100 px-2 py-1 text-center">15,400</td>
                     </tr>
                     <tr>
-                      <th class="px-2 py-1">コンフォート</th>
+                      <th class="px-2 py-1">
+                        ファースト/ファースト(わんこ同伴)
+                      </th>
                       <td class="bg-orange-100 px-2 py-1 text-center">
-                        10,180
+                        10,190
                       </td>
                       <td class="bg-sky-100 px-2 py-1 text-center">11,200</td>
                       <td class="bg-lime-100 px-2 py-1 text-center">12,320</td>
                     </tr>
                     <tr>
-                      <th class="px-2 py-1">ビューシート</th>
+                      <th class="px-2 py-1">コンフォートシングル</th>
                       <td class="bg-orange-100 px-2 py-1 text-center">7,640</td>
                       <td class="bg-sky-100 px-2 py-1 text-center">8,400</td>
                       <td class="bg-lime-100 px-2 py-1 text-center">9,240</td>
+                    </tr>
+                    <tr>
+                      <th class="px-2 py-1">ビューシート</th>
+                      <td class="bg-orange-100 px-2 py-1 text-center">6,370</td>
+                      <td class="bg-sky-100 px-2 py-1 text-center">7,000</td>
+                      <td class="bg-lime-100 px-2 py-1 text-center">7,700</td>
                     </tr>
                     <tr>
                       <th class="px-2 py-1">スタンダード</th>
@@ -172,16 +180,24 @@
                       <td class="bg-lime-100 px-2 py-1 text-center">9,240</td>
                     </tr>
                     <tr>
-                      <th class="px-2 py-1">コンフォート</th>
-                      <td class="bg-orange-100 px-2 py-1 text-center">5,090</td>
+                      <th class="px-2 py-1">
+                        ファースト/ファースト(わんこ同伴)
+                      </th>
+                      <td class="bg-orange-100 px-2 py-1 text-center">5,100</td>
                       <td class="bg-sky-100 px-2 py-1 text-center">5,600</td>
                       <td class="bg-lime-100 px-2 py-1 text-center">6,160</td>
                     </tr>
                     <tr>
-                      <th class="px-2 py-1">ビューシート</th>
+                      <th class="px-2 py-1">コンフォートシングル</th>
                       <td class="bg-orange-100 px-2 py-1 text-center">2,550</td>
                       <td class="bg-sky-100 px-2 py-1 text-center">2,800</td>
                       <td class="bg-lime-100 px-2 py-1 text-center">3,080</td>
+                    </tr>
+                    <tr>
+                      <th class="px-2 py-1">ビューシート</th>
+                      <td class="bg-orange-100 px-2 py-1 text-center">1,280</td>
+                      <td class="bg-sky-100 px-2 py-1 text-center">1,400</td>
+                      <td class="bg-lime-100 px-2 py-1 text-center">1,540</td>
                     </tr>
                   </tbody>
                 </table>
@@ -458,16 +474,12 @@
                       <th class="px-2 py-1">ドッグルーム利用料</th>
                       <td class="px-2 py-1">1,700</td>
                     </tr>
-                    <tr>
-                      <th class="px-2 py-1">プライベートドッグルーム利用料</th>
-                      <td class="px-2 py-1">20,500</td>
-                    </tr>
                   </tbody>
                 </table>
 
                 <ul>
                   <li class="text-xs">
-                    ドッグルーム、プライベートドッグルームは、部屋使用料のほか、車輌・旅客運賃が別途必要です。
+                    ドッグルームは、部屋使用料のほか、車輌・旅客運賃が別途必要です。
                   </li>
                 </ul>
               </div>
@@ -502,6 +514,45 @@
                   </li>
                   <li class="text-xs">
                     復路乗船券は往路乗船日より14日を過ぎますと無効となります(払い戻し不可)。
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div>
+              <header
+                class="flex flex-wrap items-center justify-between bg-gray-100 px-4 py-2"
+              >
+                <h6 class="text-sm font-semibold leading-5">
+                  Blue Grace就航記念割引
+                </h6>
+              </header>
+              <div>
+                <p>
+                  2025年7月14日～12月31日の期間限定特別価格！
+                  普通車（6m未満）16,000円、軽自動車14,000円でご利用いただけます。
+                </p>
+                <ul>
+                  <li class="text-xs">
+                    同乗者は大人2,500円、小児1,250円の追加料金が必要です。
+                  </li>
+                  <li class="text-xs">
+                    室蘭～青森航路限定、スタンダード等級のみ対象です。
+                  </li>
+                  <li class="text-xs">
+                    事前予約・事前決済が必要です（WEB予約は2日前、電話予約は5日前まで）。
+                  </li>
+                  <li class="text-xs">
+                    詳細は
+                    <a
+                      href="https://www.tsugarukaikyo.co.jp/guidance/blue_grace-syuukoukinenwaribiki-20250606/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      津軽海峡フェリー公式サイト
+                      <ArrowTopRightOnSquareIcon class="inline-block size-4" />
+                    </a>
+                    をご確認ください。
                   </li>
                 </ul>
               </div>
