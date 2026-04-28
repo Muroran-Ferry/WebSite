@@ -33,7 +33,7 @@
     "@commitlint/config-conventional": "19.4.1",
     "@fancyapps/ui": "5.0.36",
     "@googlemaps/js-api-loader": "1.16.8",
-    "@headlessui/vue": "1.7.22",
+    "@headlessui/vue": "1.7.23",
     "@heroicons/vue": "2.1.5",
     "@nuxt/eslint": "0.5.6",
     "@nuxt/image": "1.8.0",
