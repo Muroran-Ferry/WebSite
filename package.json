@@ -50,7 +50,7 @@
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-tailwindcss": "3.17.4",
     "eslint-plugin-vue": "9.28.0",
-    "husky": "9.1.5",
+    "husky": "9.1.7",
     "isbot": "5.1.25",
     "nuxt": "3.14.1592",
     "nuxt-jsonld": "2.0.8",
