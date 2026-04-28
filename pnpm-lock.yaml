@@ -96,8 +96,8 @@ importers:
         specifier: 0.6.6
         version: 0.6.6(prettier@3.3.3)
       rollup-plugin-webpack-stats:
-        specifier: 1.0.3
-        version: 1.0.3(rollup@4.39.0)
+        specifier: 3.1.1
+        version: 3.1.1(rollup@4.39.0)(vite@5.4.17(@types/node@22.5.4)(terser@5.39.0))
       scroll-hint:
         specifier: 1.2.5
         version: 1.2.5
@@ -2904,6 +2904,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@8.1.0:
@@ -2925,11 +2926,12 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   global-directory@4.0.1:
     resolution: {integrity: sha512-wHTUcDUoZ1H5/0iVqEudYW4/kAlN5cZ3j/bXn0Dpbizl9iaUVeWSHqiOjsgk6OW2bkLclbBjzewBz6weQ1zA2Q==}
@@ -4239,6 +4241,7 @@ packages:
   prebuild-install@7.1.3:
     resolution: {integrity: sha512-8Mf2cbV7x1cXPUILADGI3wuhfqWvtiLA1iclTDbFRZkgRQS0NqsPZphna9V+HyTEadheuPmjaJMsbzKQFOzLug==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
   prelude-ls@1.2.1:
@@ -4469,6 +4472,21 @@ packages:
     deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
+  rollup-plugin-stats@2.1.1:
+    resolution: {integrity: sha512-YaFOomhAAQHSoMQphemXSEU0/TRVfvzQainb369Ve4Wg8gZ2Nrir2lISxqaGVdYhxQI0ufoDiRciFnZsQygROw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      rolldown: ^1.0.0-beta.0
+      rollup: ^3.0.0 || ^4.0.0
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+    peerDependenciesMeta:
+      rolldown:
+        optional: true
+      rollup:
+        optional: true
+      vite:
+        optional: true
+
   rollup-plugin-visualizer@5.14.0:
     resolution: {integrity: sha512-VlDXneTDaKsHIw8yzJAFWtrzguoJ/LnQ+lMpoVfYJ3jJF4Ihe5oYLAqLklIK/35lgUY+1yEzCkHyZ1j4A5w5fA==}
     engines: {node: '>=18'}
@@ -4482,11 +4500,20 @@ packages:
       rollup:
         optional: true
 
-  rollup-plugin-webpack-stats@1.0.3:
-    resolution: {integrity: sha512-wbsXt9cKRqeZSuzTKPxUfu74KQeAkBrtbSVYGmtppz3pcM2858JmoPcz+UUq/FMqhWQgbE65faV2fLaxgLKImg==}
+  rollup-plugin-webpack-stats@3.1.1:
+    resolution: {integrity: sha512-QfQ2n6qX4h4Bya4ugQsJHkPF13x8vVb7u0nZsdUslFAbxDC4/BfAM6QXbZETJSlH5ajS+KE1RWaNxnVWmXrDGg==}
     engines: {node: '>=18'}
     peerDependencies:
+      rolldown: ^1.0.0-beta.0
       rollup: ^3.0.0 || ^4.0.0
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+    peerDependenciesMeta:
+      rolldown:
+        optional: true
+      rollup:
+        optional: true
+      vite:
+        optional: true
 
   rollup@4.39.0:
     resolution: {integrity: sha512-thI8kNc02yNvnmJp8dr3fNWJ9tCONDhp6TV35X6HkKGGs9E6q7YWCHbe5vKiTa7TAiNcFEmXKj3X/pG2b3ci0g==}
@@ -4859,10 +4886,12 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   tar@7.4.3:
     resolution: {integrity: sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   terser@5.39.0:
     resolution: {integrity: sha512-LBAhFyLho16harJoWMg/nZsQYgTrg5jXOn2nCYjRUcZZEdE3qa2zb8QEDRUGVZBW4rlazf2fxkg8tztybTaqWw==}
@@ -5047,6 +5076,7 @@ packages:
 
   unplugin-vue-router@0.10.9:
     resolution: {integrity: sha512-DXmC0GMcROOnCmN56GRvi1bkkG1BnVs4xJqNvucBUeZkmB245URvtxOfbo3H6q4SOUQQbLPYWd6InzvjRh363A==}
+    deprecated: 'Merged into vuejs/router. Migrate: https://router.vuejs.org/guide/migration/v4-to-v5.html'
     peerDependencies:
       vue-router: ^4.4.0
     peerDependenciesMeta:
@@ -10341,6 +10371,11 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
+  rollup-plugin-stats@2.1.1(rollup@4.39.0)(vite@5.4.17(@types/node@22.5.4)(terser@5.39.0)):
+    optionalDependencies:
+      rollup: 4.39.0
+      vite: 5.4.17(@types/node@22.5.4)(terser@5.39.0)
+
   rollup-plugin-visualizer@5.14.0(rollup@4.39.0):
     dependencies:
       open: 8.4.2
@@ -10350,9 +10385,12 @@ snapshots:
     optionalDependencies:
       rollup: 4.39.0
 
-  rollup-plugin-webpack-stats@1.0.3(rollup@4.39.0):
+  rollup-plugin-webpack-stats@3.1.1(rollup@4.39.0)(vite@5.4.17(@types/node@22.5.4)(terser@5.39.0)):
     dependencies:
+      rollup-plugin-stats: 2.1.1(rollup@4.39.0)(vite@5.4.17(@types/node@22.5.4)(terser@5.39.0))
+    optionalDependencies:
       rollup: 4.39.0
+      vite: 5.4.17(@types/node@22.5.4)(terser@5.39.0)
 
   rollup@4.39.0:
     dependencies:
